@@ -1,0 +1,375 @@
+@inproceedings{Rizoiu2018a,
+    abstract = {Serious concerns have been raised about the role of 'socialbots' in manipulating public opinion and influencing the outcome of elections by retweeting partisan content to increase its reach. Here we analyze the role and influence of socialbots on Twitter by determining how they contribute to retweet diffusions. We collect a large dataset of tweets during the 1st U.S. Presidential Debate in 2016 ({\#}DebateNight) and we analyze its 1.5 million users from three perspectives: user influence, political behavior (partisanship and engagement) and botness. First, we define a measure of user influence based on the user's active contributions to information diffusions, i.e. their tweets and retweets. Given that Twitter does not expose the retweet structure - it associates all retweets with the original tweet - we model the latent diffusion structure using only tweet time and user features, and we implement a scalable novel approach to estimate influence over all possible unfoldings. Next, we use partisan hashtag analysis to quantify user political polarization and engagement. Finally, we use the BotOrNot API to measure user botness (the likelihood of being a bot). We build a two-dimensional "polarization map" that allows for a nuanced analysis of the interplay between botness, partisanship and influence. We find that not only social bots are more active on Twitter - starting more retweet cascades and retweeting more -- but they are 2.5 times more influential than humans, and more politically engaged. Moreover, pro-Republican bots are both more influential and more politically engaged than their pro-Democrat counterparts. However we caution against blanket statements that software designed to appear human dominates political debates. We find that many highly influential Twitter users are in fact pro-Democrat and that most pro-Republican users are mid-influential and likely to be human (low botness).},
+    address = {Stanford, CA, USA},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Graham, Timothy and Zhang, Rui and Zhang, Yifei and Ackland, Robert and Xie, Lexing},
+    booktitle = {International AAAI Conference on Web and Social Media (ICWSM '18)},
+    pages = {1--10},
+    title = {{{\#}DebateNight: The Role and Influence of Socialbots on Twitter During the 1st 2016 U.S. Presidential Debate}},
+    url = {https://arxiv.org/abs/1802.09808},
+    year = {2018}
+}
+
+@inproceedings{Mishra2018,
+    author = {Mishra, Swapnil and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing},
+    booktitle = {ICWSM'18 \textbf{(under review)}},
+    pages = {1--10},
+    title = {{Modeling Popularity in Asynchronous Social Media Streams with Recurrent Neural Networks}},
+    year = {2018}
+}
+
+@inproceedings{Rizoiu2017b,
+    abstract = {Modeling the popularity dynamics of an online item is an important open problem in computational social science. This paper presents an in-depth study of popularity dynamics under external promotions, especially in predicting popularity jumps of online videos, and determining effective and efficient schedules to promote online content. The recently proposed Hawkes Intensity Process (HIP) models popularity as a non-linear interplay between exogenous stimuli and the endogenous reactions. Here, we propose two novel metrics based on HIP: to describe popularity gain per unit of promo- tion, and to quantify the time it takes for such effects to unfold. We make increasingly accurate forecasts of future popularity by including information about the intrinsic properties of the video, promotions it receives, and the non-linear effects of popularity ranking. We illustrate by simulation the interplay between the unfolding of popularity over time, and the time-sensitive value of resources. Lastly, our model lends a novel explanation of the commonly adopted periodic and constant promotion strategy in advertising, as increasing the perceived viral potential. This study provides quantitative guidelines about setting promotion schedules considering content virality, timing, and economics.},
+    address = {Montr{\'{e}}al, Qu{\'{e}}bec, Canada},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing},
+    booktitle = {ICWSM '17},
+    keywords = {detection,economics,economics.,popularity,prediction,promotion,value of time,viral potential},
+    pages = {182--191},
+    title = {{Online Popularity under Promotion: Viral Potential, Forecasting, and the Economics of Time}},
+    url = {https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15553},
+    year = {2017}
+}
+
+@inproceedings{Kong2018,
+    author = {Kong, Quyu and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Wu, Siqi and Xie, Lexing},
+    booktitle = {WWW '18 Companion},
+    doi = {10.1145/3184558.3186972},
+    pages = {1--4},
+    title = {{Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos}},
+    year = {2018}
+}
+
+@inproceedings{Kim2015a,
+    abstract = {Evolutionary clustering aims at capturing the temporal evolution of clusters. This issue is particularly important in the context of social media data that are naturally temporally driven. In this paper, we propose a new probabilistic model-based evolutionary clustering technique. The Temporal Multinomial Mixture (TMM) is an extension of classical mixture model that optimizes feature co-occurrences in the trade-off with temporal smoothness. Our model is evaluated for two recent case studies on opinion aggregation over time. We compare four different probabilistic clustering models and we show the superiority of our proposal in the task of instance-oriented clustering.},
+    archivePrefix = {arXiv},
+    arxivId = {1601.02300},
+    author = {Kim, Young-Min and Velcin, Julien and Bonnevay, St{\'{e}}phane and \textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    booktitle = {European Conference on Information Retrieval},
+    doi = {10.1007/978-3-319-16354-3_66},
+    eprint = {1601.02300},
+    isbn = {9783319163536},
+    issn = {16113349},
+    keywords = {evolutionary clustering,mixture model,temporal analysis.},
+    pages = {593--604},
+    title = {{Temporal Multinomial Mixture for Instance-Oriented Evolutionary Clustering}},
+    url = {http://link.springer.com/10.1007/978-3-319-16354-3_66},
+    volume = {9022},
+    year = {2015}
+}
+
+@inproceedings{Rizoiu2018,
+    abstract = {Two of the main frameworks used for modeling information diffusions in the online are epidemic models and Hawkes point processes. The former consider information as a viral contagion which spreads into a population of online users, and employ tools initially developed in the field of epidemiology. The latter view individual broadcasts of information as events in a point process and they modulate the event rate according to observed (or assumed) social principles; they have been broadly used in fields such as finance and geophysics. Here, we study for the first time the connection between these two mature frameworks, and we find them to be equivalent. More precisely, the rate of events in the Hawkes model is identical to the rate of new infections in the Susceptible-Infected-Recovered (SIR) model when taking the expectation over recovery events -- which are unobserved in a Hawkes process. This paves the way to apply tools developed for one framework across the gap, to the other framework. We make three further contributions in this work. First, we propose HawkesN, an extension of the basic Hawkes model, in which we introduce the notion of finite maximum number of events that can occur. Second, we show HawkesN to explain real retweet cascades better than the current state-of-the-art Hawkes modeling. The size of the population can be learned while observing the cascade, at the expense of requiring larger amounts of training data. Third, we employ an SIR method based on Markov chains for computing the final size distribution for a partially observed cascade fitted with HawkesN. We propose an explanation to the generally perceived randomness of online popularity: the final size distribution for real diffusion cascades tends to have two maxima, one corresponding to large cascade sizes and another one around zero.},
+    address = {Lyon, France},
+    archivePrefix = {arXiv},
+    arxivId = {1711.01679},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Mishra, Swapnil and Kong, Quyu and Carman, Mark and Xie, Lexing},
+    booktitle = {WWW '18},
+    doi = {10.1145/3178876.3186108},
+    eprint = {1711.01679},
+    isbn = {1234567245},
+    month = {nov},
+    pages = {1--16},
+    title = {{SIR-Hawkes: Linking Epidemic Models and Hawkes Processes to Model Diffusions in Finite Populations}},
+    url = {http://arxiv.org/abs/1711.01679},
+    year = {2018}
+}
+
+@inproceedings{Wu2017,
+    abstract = {This work studies engagement, or watching behavior in online videos. Most current work focuses on modeling views, which is known to be an inadequate measure of engagement and video quality due to different viewing behavior and spam views. More broadly, engagement has been measured in reading behavior of news and web pages, click-through in online ads, but not for videos. We study a set of engagement metrics, including watch time, percentage of video watched, and relate them to views and video properties such as length and content category. We propose a new metric, relative engagement, which is calibrated over video duration, stable over time, and strongly correlated with video quality. We predict relative engagement and watch percentage with intrinsic video and channel features, and can explain most of its variance - R2=0.79 for watch percentage - without observing any user activity. We further link daily watch time to external sharing of a video using the self-exciting Hawkes Intensity Processes. We can forecast daily watch time more accurately than daily views. We measure engagement metrics over 5.3 million YouTube videos. This dataset and benchmarks will be publicly available. This work provides new dimensions to quantify engagement in videos, and paves way towards in-depth understanding of different video verticals such as music, news, activism and games.},
+    archivePrefix = {arXiv},
+    arxivId = {1709.02541},
+    author = {Wu, Siqi and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing},
+    booktitle = {ICWSM'18 \textbf{(under review)}},
+    eprint = {1709.02541},
+    month = {sep},
+    pages = {1--10},
+    title = {{Measuring Video Engagement: An Empirical Study on YouTube}},
+    url = {https://arxiv.org/abs/1709.02541 http://arxiv.org/abs/1709.02541},
+    year = {2018}
+}
+
+@article{Rizoiu2015,
+    abstract = {We present CommentWatcher, an open source tool aimed at analyzing discussions on web forums. Constructed as a web platform, CommentWatcher features automatic mass fetching of user posts from forum on multiple sites, extracting topics, visualizing the topics as an expression cloud and exploring their temporal evolution. The underlying social network of users is simultaneously constructed using the citation relations between users and visualized as a graph structure. Our platform addresses the issues of the diversity and dynamics of structures of webpages hosting the forums by implementing a parser architecture that is independent of the HTML structure of webpages. This allows easy on-the-fly adding of new websites. Two types of users are targeted: end users who seek to study the discussed topics and their temporal evolution, and researchers in need of establishing a forum benchmark dataset and comparing the performances of analysis tools.},
+    annote = {NULL},
+    archivePrefix = {arXiv},
+    arxivId = {1504.07459},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Guille, Adrien and Velcin, Julien},
+    eprint = {1504.07459},
+    journal = {arXiv preprint},
+    month = {apr},
+    title = {{CommentWatcher: An Open Source Web-based platform for analyzing discussions on web forums}},
+    url = {http://arxiv.org/abs/1504.07459},
+    year = {2015}
+}
+@incollection{Rizoiu2017a,
+    abstract = {This chapter provides an accessible introduction for point processes, and especially Hawkes processes, for modeling discrete, inter-dependent events over continuous time. We start by reviewing the definitions and the key concepts in point processes. We then introduce the Hawkes process, its event intensity function, as well as schemes for event simulation and parameter estimation. We also describe a practical example drawn from social media data – we show how to model retweet cascades using a Hawkes self-exciting process. We presents a design of the memory kernel, and results on estimating parameters and predicting popularity. The code and sample event data are available as an online appendix.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Lee, Young and Mishra, Swapnil and Xie, Lexing},
+    booktitle = {Research Frontiers of Multimedia},
+    doi = {10.1145/3122865.3122874},
+    editor = {Chang, Shih-Fu},
+    isbn = {978-1-97000-107-5},
+    pages = {1--26},
+    publisher = {ACM Books},
+    title = {{A Tutorial on Hawkes Processes for Events in Social Media}},
+    url = {https://arxiv.org/abs/1708.06401},
+    year = {2017}
+}
+
+@inproceedings{Rizoiu2016,
+    abstract = {The cumulative effect of collective online participation has an important and adverse impact on individual privacy. As an online system evolves over time, new digital traces of individual behavior may uncover previously hidden statistical links between an individual's past actions and her private traits. To quantify this effect, we analyze the evolution of individual privacy loss by studying the edit history of Wikipedia over 13 years, including more than 117,523 different users performing 188,805,088 edits. We trace each Wikipedia's contributor using apparently harmless features, such as the number of edits performed on predefined broad categories in a given time period (e.g. Mathematics, Culture or Nature). We show that even at this unspecific level of behavior description, it is possible to use off-the-shelf machine learning algorithms to uncover usually undisclosed personal traits, such as gender, religion or education. We provide empirical evidence that the prediction accuracy for almost all private traits consistently improves over time. Surprisingly, the prediction performance for users who stopped editing after a given time still improves. The activities performed by new users seem to have contributed more to this effect than additional activities from existing (but still active) users. Insights from this work should help users, system designers, and policy makers understand and make long-term design choices in online content creation systems.},
+    archivePrefix = {arXiv},
+    arxivId = {1512.03523},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing and Caetano, Tiberio and Cebrian, Manuel},
+    booktitle = {WSDM '16},
+    doi = {10.1145/2835776.2835798},
+    eprint = {1512.03523},
+    isbn = {9781450337168},
+    keywords = {de-anonymization,online privacy,temporal loss of privacy},
+    mendeley-groups = {Wikipedia},
+    month = {dec},
+    pages = {215--224},
+    title = {{Evolution of Privacy Loss in Wikipedia}},
+    url = {http://dl.acm.org/citation.cfm?doid=2835776.2835798 http://arxiv.org/abs/1512.03523 http://dx.doi.org/10.1145/2835776.2835798},
+    year = {2016}
+}
+
+@inproceedings{Mishra2016,
+    abstract = {Predicting popularity, or the total volume of information outbreaks, is an important subproblem for understanding collective behavior in networks. Each of the two main types of recent approaches to the problem, feature-driven and gen- erative models, have desired qualities and clear limitations. This paper bridges the gap between these solutions with a new hybrid approach and a new performance benchmark. We model each social cascade with a marked Hawkes self- exciting point process, and estimate the content virality, memory decay, and user influence. We then learn a predic- tive layer for popularity prediction using a collection of cas- cade history. We compare the performance of feature driven and point-process models using existing tweet data [43] and a new public benchmark on news tweets. To our surprise, Hawkes process with predictive tuning outperform recent feature-driven and generative approaches. We also found that a basic set of user features and event time summary statistics performs competitively in both classification and regression tasks, and that adding point process information to the feature set further improves predictions. From these observations, we argue that future work on popularity pre- diction should compare across feature-driven and generative modeling approaches in both classification and regression tasks.},
+    author = {Mishra, Swapnil and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing},
+    booktitle = {CIKM '16},
+    doi = {10.1145/2983323.2983812},
+    isbn = {9781450340731},
+    keywords = {cascade prediction,information diffusion,self-exciting point process,social media},
+    pages = {1069--1078},
+    title = {{Feature Driven and Point Process Approaches for Popularity Prediction}},
+    url = {http://dl.acm.org/citation.cfm?doid=2983323.2983812},
+    year = {2016}
+}
+
+@inproceedings{Rizoiu2017,
+    abstract = {Modeling and predicting the popularity of online content is a significant problem for the practice of information dissemination, advertising, and consumption. Recent work analyzing massive datasets advances our understanding of popularity, but one major gap remains: To precisely quantify the relationship between the popularity of an online item and the external promotions it receives. This work supplies the missing link between exogenous inputs from public social media platforms, such as Twitter, and endogenous responses within the content platform, such as YouTube. We develop a novel mathematical model, the Hawkes intensity process, which can explain the complex popularity history of each video according to its type of content, network of diffusion, and sensitivity to promotion. Our model supplies a prototypical description of videos, called an endo-exo map. This map explains popularity as the result of an extrinsic factor – the amount of promotions from the outside world that the video receives, acting upon two intrinsic factors – sensitivity to promotion, and inherent virality. We use this model to forecast future popularity given promotions on a large 5-months feed of the most-tweeted videos, and found it to lower the average error by 28.6% from approaches based on popularity history. Finally, we can identify videos that have a high potential to become viral, as well as those for which promotions will have hardly any effect.},
+    address = {Perth, Australia},
+    archivePrefix = {arXiv},
+    arxivId = {1602.06033},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Xie, Lexing and Sanner, Scott and Cebrian, Manuel and Yu, Honglin and {Van Hentenryck}, Pascal},
+    booktitle = {WWW '17},
+    doi = {10.1145/3038912.3052650},
+    eprint = {1602.06033},
+    isbn = {9781450349130},
+    pages = {735--744},
+    title = {{Expecting to be HIP: Hawkes Intensity Processes for Social Media Popularity}},
+    url = {http://arxiv.org/abs/1602.06033 http://dl.acm.org/citation.cfm?doid=3038912.3052650},
+    year = {2017}
+}
+
+@article{Rizoiu2016a,
+    abstract = {We propose ClusPath, a novel algorithm for detecting general evolution tendencies in a population of entities. We show how abstract notions, such as the Swedish socio-economical model (in a political dataset) or the companies fiscal optimization (in an eco- nomical dataset) can be inferred from low-level descriptive features. Such high-level regularities in the evolution of entities are detected by combining spatial and temporal features into a spatio-temporal dissimilarity measure and using semi-supervised clustering techniques. The relations between the evolution phases are modeled using a graph structure, inferred si- multaneously with the partition, by using a “slow changing world” assumption. The idea is to ensure a smooth passage for entities along their evolution paths, which catches the long- term trends in the dataset. Additionally, we also provide a method, based on an evolutionary algorithm, to tune the parameters of ClusPath to new, unseen datasets. This method assesses the fitness of a solution using four opposed quality measures and proposes a balanced com- promise.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Bonnevay, St{\'{e}}phane and Lallich, St{\'{e}}phane},
+    doi = {10.1007/s10618-015-0445-7},
+    issn = {1384-5810},
+    journal = {Data Mining and Knowledge Discovery},
+    keywords = {Pareto front estimation,detection of long-term trends,evolutionary clustering,semi-supervised clustering,temporal cluster graph,temporal clustering},
+    month = {sep},
+    number = {5},
+    pages = {1324--1349},
+    title = {{ClusPath: a temporal-driven clustering to infer typical evolution paths}},
+    url = {http://link.springer.com/10.1007/s10618-015-0445-7},
+    volume = {30},
+    year = {2016}
+}
+
+@inproceedings{RIZ10,
+    abstract = {Organiser les donn{\'{e}}es textuelles et en tirer du sens est un d{\'{e}}fi majeur aujourd'hui. Ainsi, lorsque l'on souhaite analyser un d{\'{e}}bat en ligne ou un forum de discussion, on voudrait pouvoir rapidement voir quels sont les principaux th{\`{e}}mes abord{\'{e}}s et la mani{\`{e}}re dont la discussion se structure autour d'eux. Pour cela, et parce que un m{\^{e}}me texte peut {\^{e}}tre associ{\'{e}} {\`{a}} plusieurs th{\`{e}}mes, nous proposons une m{\'{e}}thode originale pour regrouper les donn{\'{e}}es textuelles en autorisant les chevauchements et pour nommer chaque groupe de mani{\`{e}}re lisible. La contribution principale de cet article est une m{\'{e}}thode globale qui permet de r{\'{e}}aliser toute la cha{\^{i}}ne, partant des donn{\'{e}}es textuelles brutes jusqu'{\`{a}} la caract{\'{e}}risation des groupes {\`{a}} un niveau s{\'{e}}mantique qui d{\'{e}}passe le simple ensemble de mots.},
+    address = {Hammamet, Tunisie},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Chauchat, Jean-Hugues},
+    booktitle = {Extraction et Gestion des Connaissances, (EGC 10) 10{\`{e}}me Conf{\'{e}}rence},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu, Velcin, Chauchat/Extraction et Gestion des Connaissances, (EGC 10) 10{\`{e}}me Conf{\'{e}}rence/Rizoiu, Velcin, Chauchat - 2010 - Regrouper les donn{\'{e}}es textuelles et nommer les groupes {\`{a}} l'aide des classes recouvrantes.pdf:pdf},
+    keywords = {clustering,overlapping,text mining},
+    mendeley-groups = {Aigaion Import},
+    organization = {C{\'{e}}padu{\`{e}}s},
+    pages = {561--572},
+    publisher = {Revue des Nouvelles Technologies de l'Information},
+    series = {Revue des Nouvelles Technologies de l'Information},
+    title = {{Regrouper les donn{\'{e}}es textuelles et nommer les groupes {\`{a}} l'aide des classes recouvrantes}},
+    volume = {E-19},
+    year = {2010}
+}
+
+@inproceedings{MUS11a,
+    abstract = {We propose a system which employs conceptual knowledge to improve topic models by removing unrelated words from the simplified topic description. We use WordNet to detect which topical words are not conceptually similar to the others and then test our assumptions against human judgment. Results obtained on two different corpora in different test conditions show that the words detected as unrelated had a much greater probability than the others to be chosen by human evaluators as not being part of the topic at all. We prove that there is a strong correlation between the said probability and an automatically calculated topical fitness and we discuss the variation of the correlation depending on the method and data used.},
+    address = {Warsaw, Poland},
+    author = {Muşat, Claudiu Cristian and Velcin, Julien and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Trǎuşan-Matu, Ştefan},
+    booktitle = {International Symposium on Methodologies for Intelligent Systems},
+    doi = {10.1007/978-3-642-22732-5_12},
+    file = {:home/riz011/Documente/Mendeley Desktop/Muşat et al/International Symposium on Methodologies for Intelligent Systems/Muşat et al. - 2011 - Concept-Based Topic Model Improvement.pdf:pdf},
+    isbn = {978-3-642-22732-5},
+    issn = {1860949X},
+    keywords = {Evaluation,Improvement,Ontologies,Topic Models},
+    mendeley-groups = {Aigaion Import},
+    pages = {133--142},
+    publisher = {Springer},
+    series = {ISMIS$\sim$'11},
+    title = {{Concept-Based Topic Model Improvement}},
+    url = {http://link.springer.com/10.1007/978-3-642-22732-5_12},
+    volume = {369},
+    year = {2011}
+}
+
+@inproceedings{MUS11,
+    abstract = {The growing number of statistical topic models led to the need to better evaluate their output. Traditional evaluation means estimate the model's fitness to unseen data. It has recently been proven than the output of human judgment can greatly differ from these measures. Thus the need for methods that better emulate human judgment is stringent. In this paper we present a system that computes the conceptual relevance of individual topics from a given model on the basis of information drawn from a given concept hierarchy, in this case WordNet. The notion of conceptual relevance is regarded as the ability to attribute a concept to each topic and separate words related to the topic from the unrelated ones based on that concept. In multiple experiments we prove the correlation between the automatic evaluation method and the answers received from human evaluators, for various corpora and difficulty levels. By changing the evaluation focus from a statistical one to a conceptual one we were able to detect which topics are conceptually meaningful and rank them accordingly.},
+    address = {Barcelona, Catalonia, Spain},
+    author = {Muşat, Claudiu Cristian and Velcin, Julien and Trǎuşan-Matu, Ştefan and \textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    booktitle = {International Joint Conference on Artificial Intelligence, Proceedings of the Twenty-Second},
+    doi = {10.5591/978-1-57735-516-8/IJCAI11-312},
+    file = {:home/riz011/Documente/Mendeley Desktop/Muşat et al/International Joint Conference on Artificial Intelligence, Proceedings of the Twenty-Second/Muşat et al. - 2011 - Improving topic evaluation using conceptual knowledge.pdf:pdf},
+    isbn = {978-1-57735-515-1},
+    keywords = {natural language processing},
+    mendeley-groups = {Aigaion Import},
+    pages = {1866--1871},
+    publisher = {AAAI Press},
+    series = {IJCAI 2011},
+    title = {{Improving topic evaluation using conceptual knowledge}},
+    url = {http://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPDFInterstitial/3010/3754},
+    volume = {3},
+    year = {2011}
+}
+
+@article{MUS10,
+    abstract = {Topic modeling is a growing research field and novel ways of interpreting and evaluating results are necessary. We propose a method for evaluating and improving the performance of topic models generating algorithms relying on WordNet data. We first propose a measure for determining a topic model's fitness factoring in its broadness and redundancy. Then, for each individual topic, the amount of relevant information it provides, along with its most important words and related concepts are determined by defining a cohesion function based on the topic's projection on WordNet concepts. The model as a whole is improved by eliminating each topic's outliers with respect to the ontology projection. We define a inter topic ontology based distance and we further use it to investigate the impact of removing redundant topics from a model with regard to the overlap between topics' ontological projections. Clustering similar topics into conceptually cohesive groups is tried as an alternative to pruning less relevant topics. Results show that evaluating and improving statistical models with WordNet is a promising research track that leads to more coherent topic models.},
+    author = {Muşat, Claudiu Cristian and \textbf{Rizoiu}, \textbf{Marian-Andrei} and Trǎuşan-Matu, Ştefan},
+    file = {:home/riz011/Documente/Mendeley Desktop/Muşat, Rizoiu, Trǎuşan-Matu/Romanian Journal of Human-Computer Interaction/Muşat, Rizoiu, Trǎuşan-Matu - 2010 - An Intra and Inter-Topic Evaluation and Cleansing Method.pdf:pdf},
+    issn = {1843-4460},
+    journal = {Romanian Journal of Human-Computer Interaction},
+    mendeley-groups = {Aigaion Import},
+    number = {2},
+    pages = {81--96},
+    title = {{An Intra and Inter-Topic Evaluation and Cleansing Method}},
+    volume = {3},
+    year = {2010}
+}
+
+@inproceedings{RIZ12,
+    abstract = {In this paper, we propose a new time-aware dissimilarity measure that takes into account the temporal dimension. Observations that are close in the description space, but distant in time are considered as dissimilar. We also propose a method to enforce the segmentation contiguity, by introducing, in the objective function, a penalty term inspired from the Normal Distribution Function. We combine the two propositions into a novel time-driven constrained clustering algorithm, called TDCK-Means, which creates a partition of coherent clusters, both in the multidimensional space and in the temporal space. This algorithm uses soft semi-supervised constraints, to encourage adjacent observations belonging to the same entity to be assigned to the same cluster. We apply our algorithm to a Political Studies dataset in order to detect typical evolution phases. We adapt the Shannon entropy in order to measure the entity contiguity, and we show that our proposition consistently improves temporal cohesion of clusters, without any significant loss in the multidimensional variance.},
+    address = {Athens, Greece},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Lallich, St{\'{e}}phane},
+    booktitle = {ICTAI '12},
+    doi = {10.1109/ICTAI.2012.88},
+    isbn = {9780769549156},
+    issn = {10823409},
+    keywords = {contiguity penalty function,contiguity penalty function.,semi-supervised clustering,temporal clustering,temporal-aware dissimilarity measure},
+    mendeley-groups = {Aigaion Import},
+    pages = {610--617},
+    publisher = {IEEE},
+    title = {{Structuring typical evolutions using Temporal-Driven Constrained Clustering}},
+    year = {2012},
+    note = {\textbf{(best student paper award)}}
+}
+
+@article{Rizoiu2013a,
+    abstract = {Feature-based format is the main data representation format used by machine learning algorithms. When the features do not properly describe the initial data, performance starts to degrade. Some algorithms address this problem by internally changing the representation space, but the newly-constructed features are rarely comprehensible. We seek to construct, in an unsupervised way, new features that are more appropriate for describing a given dataset and, at the same time, comprehensible for a human user. We propose two algorithms that construct the new features as conjunctions of the initial primitive features or their negations. The generated feature sets have reduced correlations between features and succeed in catching some of the hidden relations between individuals in a dataset. For example, a feature like sky ∧ ¬building ∧ panorama would be true for non-urban images and is more informative than simple features expressing the presence or the absence of an object. The notion of Pareto optimality is used to evaluate feature sets and to obtain a balance between total correlation and the complexity of the resulted feature set. Statistical hypothesis testing is used in order to automatically determine the values of the parameters used for constructing a data-dependent feature set. We experimentally show that our approaches achieve the construction of informative feature sets for multiple datasets.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Lallich, St{\'{e}}phane},
+    doi = {10.1007/s10844-013-0235-x},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu, Velcin, Lallich/Journal of Intelligent Information Systems/Rizoiu, Velcin, Lallich - 2013 - Unsupervised feature construction for improving data representation and semantics.pdf:pdf},
+    issn = {0925-9902},
+    journal = {Journal of Intelligent Information Systems},
+    keywords = {Algorithms for data and knowledge management,Clustering,Data mining,Feature evaluation,Heuristic methods,Nonparametric statistics,Pattern analysis,Representations,Unsupervised feature construction,clustering,data mining,feature evaluation,nonparametric statistics,representations,unsupervised feature construction},
+    mendeley-groups = {Aigaion Import},
+    month = {jun},
+    number = {3},
+    pages = {501--527},
+    title = {{Unsupervised feature construction for improving data representation and semantics}},
+    url = {http://link.springer.com/10.1007/s10844-013-0235-x},
+    volume = {40},
+    year = {2013}
+}
+
+@article{Rizoiu2015a,
+    abstract = {One of the prevalent learning tasks involving images is content-based image classification. This is a difficult task especially because the low-level features used to digitally describe images usually capture little information about the semantics of the images. In this paper, we tackle this difficulty by enriching the semantic content of the image representation by using external knowledge. The underlying hypothesis of our work is that creating a more semantically rich representation for images would yield higher machine learning performances, without the need to modify the learning algorithms themselves. The external semantic information is presented under the form of non-positional image labels, therefore positioning our work in a weakly supervised context. Two approaches are proposed: the first one leverages the labels into the visual vocabulary construction algorithm, the result being dedicated visual vocabularies. The second approach adds a filtering phase as a pre-processing of the vocabulary construction. Known positive and known negative sets are constructed and features that are unlikely to be associated with the objects denoted by the labels are filtered. We apply our proposition to the task of content-based image classification and we show that semantically enriching the image representation yields higher classification performances than the baseline representation.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Lallich, St{\'{e}}phane},
+    doi = {10.3233/IDA-140702},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu, Velcin, Lallich/Intelligent Data Analysis/Rizoiu, Velcin, Lallich - 2015 - Semantic-enriched Visual Vocabulary Construction in a Weakly Supervised Context.pdf:pdf},
+    journal = {Intelligent Data Analysis},
+    keywords = {bag-of-features representation,image numerical representation,semantic-enriched representation,semisupervised learning,visual vocabulary construction},
+    number = {1},
+    pages = {161--185},
+    title = {{Semantic-enriched Visual Vocabulary Construction in a Weakly Supervised Context}},
+    volume = {19},
+    year = {2015}
+}
+
+@inproceedings{Rizoiu2013b,
+    abstract = {The objective of the thesis is to explore how complex data can be treated using unsupervised machine learning techniques, in which additional information is injected to guide the exploratory process. Starting from specific problems, our contributions take into account the different dimensions of the complex data: their nature (image, text), the additional information attached to the data (labels, structure, concept ontologies) and the temporal dimension. A special attention is given to data representation and how additional information can be leveraged to improve this representation.},
+    address = {Beijing, China},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    booktitle = {International Joint Conference on Artificial Intelligence IJCAI'13},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu/International Joint Conference on Artificial Intelligence IJCAI'13/Rizoiu - 2013 - Semi-Supervised Structuring of Complex Data.pdf:pdf},
+    pages = {3239--3240},
+    publisher = {AAAI Press},
+    series = {IJCAI '13},
+    title = {{Semi-Supervised Structuring of Complex Data}},
+    year = {2013}
+}
+
+@phdthesis{Rizoiu2013,
+    abstract = {The objective of this thesis is to explore how complex data can be treated using unsupervised machine learning techniques, in which additional information is injected to guide the exploratory process. The two main research challenges addressed in this work are (a) leveraging semantic information into data numerical representation and into the learning algorithms and (b) making use of the temporal dimension when analyzing complex data. The main research challenges are derived, through a dialectical relation between theory and practice, into more specific learning tasks, which vary from (i) detecting typical evolution patterns to (ii) improving data representation by using semantics to (iii) embedding expert information into image numerical description or to (iv) using semantic resources (e.g., WordNet) when evaluation topics extracted from text. The methods we privilege when tackling with our learning tasks are unsupervised and, mainly, semi-supervised clustering. Therefore, the general context of this thesis lies at the intersection of the two large domains of complex data analysis and semi-supervised clustering. We divide our work into four parts. The first is dedicated to the temporal component of data, in which we propose a temporal clustering algorithms, with contiguity constraints, and use it to detect typical evolutions. The second part is dedicated to semantic reconstruction of the description space of the data, and we propose an unsupervised feature construction algorithm, which replaces highly correlated pairs of features with conjunctions of literals. In the third part, we tackle the problem of constructing a semantically-enriched image representation starting from a baseline representation, and we propose two approaches toward leveraging external expert knowledge, under the form of non-positional labels. We dedicate the fourth part of our work to textual data, and more precisely towards the task of topic extraction, using an overlapping text clustering algorithm, topic labeling, using frequent complete phrases, and semantic topic evaluation, by using an external concept hierarchy. We add a fifth part, which describes the applied part of our work, CommentWatcher, an open-source platform for analyzing online discussion forums.},
+    address = {Lyon, France},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu/Unknown/Rizoiu - 2013 - Semi-supervised structuring of complex data.pdf:pdf},
+    keywords = {complex data analysis,feature construction,semantic data repre- sentation,semantic-enriched image representation,semi-supervised clustering,temporal clustering,topic extraction},
+    school = {University Lumi{\`{e}}re Lyon 2},
+    title = {{Semi-supervised structuring of complex data}},
+    type = {PhD},
+    year = {2013}
+}
+
+@phdthesis{Rizoiu2009,
+    abstract = {In this paper we present the research a way of clustering textual data based on the thematics approached in the texts and a manner of finding a suitable, humanly readable name for each group. Previous research done on the field of data clustering and thematic extraction is briefly presented, along with observations of their suitability for the intended purpose, and then we propose an approach to combine the ones that we consider that maximize the effectiveness of the process. Our work is intended for general text files (newspaper articles, forums, chat logs) and takes into account the fact that a text can naturally have multiple thematics, so the clustering must be done in such a fashion that this condition is respected (a text can be part of more than one group). The main idea is to regroup the textual documents using different term weighting schemes (a comparison of which will be presented later in the paper) and from each cluster extract the frequent keyphrases and associate them to the cluster's centroid. A practical implementation of the algorithm has also been prepared and an expert evaluation was performed to assess the results.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    school = {University Lumi{\`{e}}re Lyon 2},
+    title = {{Textual Data Clustering and Cluster Naming}},
+    type = {Masters},
+    year = {2009}
+}
+
+@article{Rizoiu2014b,
+    abstract = {In this paper, we propose a new time-aware dissimilarity measure that takes into account the temporal dimension. Observations that are close in the description space, but distant in time are considered as dissimilar. We also propose a method to enforce the segmentation contiguity, by introducing, in the objective function, a penalty term inspired from the Normal Distribution Function. We combine the two propositions into a novel time-driven constrained clustering algorithm, called TDCK-Means, which creates a partition of coherent clusters, both in the multidimensional space and in the temporal space. This algorithm uses soft semi-supervised constraints, to encourage adjacent observations belonging to the same entity to be assigned to the same cluster. We apply our algorithm to a Political Studies dataset in order to detect typical evolution phases. We adapt the Shannon entropy in order to measure the entity contiguity, and we show that our proposition consistently improves temporal cohesion of clusters, without any significant loss in the multidimensional variance.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien and Lallich, St{\'{e}}phane},
+    doi = {10.1142/S0218213014600136},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu, Velcin, Lallich/International Journal on Artificial Intelligence Tools/Rizoiu, Velcin, Lallich - 2014 - How to Use Temporal-Driven Constrained Clustering to Detect Typical Evolutions.pdf:pdf},
+    issn = {0218-2130},
+    journal = {International Journal on Artificial Intelligence Tools},
+    month = {aug},
+    number = {04},
+    pages = {1460013},
+    title = {{How to Use Temporal-Driven Constrained Clustering to Detect Typical Evolutions}},
+    url = {http://www.worldscientific.com/doi/abs/10.1142/S0218213014600136},
+    volume = {23},
+    year = {2014}
+}
+
+@incollection{Rizoiu2011,
+    abstract = {This chapter addresses the issue of topic extraction from text corpora for ontology learning. The first part provides an overview of some of the most significant solutions present today in the literature. These solutions deal mainly with the inferior layers of the Ontology Learning Layer Cake. They are related to the challenges of the Terms and Synonyms layers. The second part shows how these pieces can be bound together into an integrated system for extracting meaningful topics. While the extracted topics are not proper concepts as yet, they constitute a convincing approach towards concept building and therefore ontology learning. This chapter concludes by discussing the research undertaken for filling the gap between topics and concepts as well as perspectives that emerge today in the area of topic extraction.},
+    author = {\textbf{Rizoiu}, \textbf{Marian-Andrei} and Velcin, Julien},
+    booktitle = {Ontology Learning and Knowledge Discovery Using the Web},
+    doi = {10.4018/978-1-60960-625-1.ch003},
+    editor = {Wong, Wilson and Liu, Wei and Bennamoun, Mohammed},
+    file = {:home/riz011/Documente/Mendeley Desktop/Rizoiu, Velcin/Ontology Learning and Knowledge Discovery Using the Web/Rizoiu, Velcin - 2011 - Topic Extraction for Ontology Learning.pdf:pdf},
+    pages = {38--60},
+    publisher = {IGI Global},
+    title = {{Topic Extraction for Ontology Learning}},
+    url = {http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-60960-625-1.ch003},
+    year = {2011}
+}
+
+@article{Musat2012,
+    abstract = {This work outlines a novel system that automatically extracts conceptual labels for statistically obtained topics. By creating a projection of the topic, which is a distribution over all the vocabulary words, over the WordNet ontology we succeed in associating concepts to the said groups of words. The most important contributions of this paper are connected to the validation of the role of these concepts as topical labels and the determination of correlations that emerge between the utility of these labels and the strength of the relation between the concepts and the topics.},
+    author = {Muşat, Claudiu Cristian and Trǎuşan-Matu, Ştefan and Velcin, Julien and \textbf{Rizoiu}, \textbf{Marian-Andrei}},
+    file = {:home/riz011/Documente/Mendeley Desktop/Muşat et al/UPB Scientific Bulletin, Series C Electrical Engineering/Muşat et al. - 2012 - Automatic extraction of conceptual labels from topic models.pdf:pdf},
+    journal = {UPB Scientific Bulletin, Series C: Electrical Engineering},
+    keywords = {Conceptual processing,Labels,Topic models,WordNet},
+    number = {2},
+    pages = {57--68},
+    title = {{Automatic extraction of conceptual labels from topic models}},
+    volume = {74},
+    year = {2012}
+}
+

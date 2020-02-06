@@ -1,1 +1,1782 @@
-Hello World
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html> <!--<![endif]-->
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="msvalidate.01" content="63F19DA6D5DBBB341B0FE5E549085400" />
+    <meta charset="utf-8"/>
+    <meta name="description" content="I am a lecturer in computer science with the Faculty of Engineering and IT, at the University of Technology Sydney, and affiliated with Data61, Australia. My main research interests are Stochastic Behavioural Modelling, Online Information Diffusion, Theoretical Popularity Modelling, Online Privacy, Social Networks, Machine Learning, Data Mining and Big Data." />
+    <meta name="author" content="Marian-Andrei Rizoiu" />
+    <meta name="keywords" content="research, data mining, machine learning, semi-supervised clustering, temporal clustering, topic extraction, data representation, feature construction, ontology construction, image numerical representation, online privacy, self-exciting models, popularity models, journal articles, conference proceedings, teaching, courses, programming, operating systems, object oriented programming, numerical learning" />
+
+    <title>Marian-Andrei Rizoiu</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" />
+    <!--add the tab icon-->
+    <link rel="shortcut icon" href="images/eric_mini.gif">
+    <link rel="icon" href="images/eric_mini.gif"/>
+
+    <!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.6.1.min.js"><\/script>')</script>
+
+    <script src="js/jquery.smoothscroll.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="js/init.js"></script>
+
+	<!--Google Analytics code-->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26268726-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	<!--End Google Analytics tracking code-->
+
+</head>
+
+<body>
+
+<!-- header-wrap -->
+<div id="header-wrap">
+    <header>
+
+        <hgroup>
+            <h1><a href="#main">Marian-Andrei Rizoiu</a></h1>
+            <h3>Professional Webpage</h3>
+        </hgroup>
+
+        <nav>
+            <ul>
+<!--                <li><a target="_blank" href="#main">Home</a></li>-->
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#grants">Grants & Funding</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#biography">Bio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+</div>
+
+<!-- content-wrap -->
+<div class="content-wrap">
+
+    <!-- main -->
+    <section id="main">
+
+        <div class="intro-box">
+            <h1>Marian-Andrei Rizoiu.</h1>
+
+            <p class="intro" > I am a Lecturer in Computer Science with the <a target="_blank" href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a> in the <a target="_blank" href="https://www.uts.edu.au/">University of Technology Sydney<a/>. 
+            My main research interest is to develop behavioural models for human actions online, at the intersection of applied statistics, artificial intelligence and social data science, with an interdisciplinary focus on social influence and information diffusion in online communities.
+<!--            My main research interests are Stochastic Behavioural Modelling, Online Information Diffusion, Theoretical Popularity Modelling, Online Privacy, Social Networks, Machine Learning, Data Mining and Big Data.-->
+            I am also lecturing, see more about my <a href="#teaching">teaching</a>.</p>
+	   <p class="intro" id="contact"></p>
+	   
+	   <!-- Putting the contact id here so that it jumps correctly when chosen in the menu -->
+           <p class="intro" id="contact">I am looking for PhD students! Scholarships available: <a target="_blank" href="documents/research/offers/multi-variate-interval-censored-modeling.pdf">subject1</a>, <a target="_blank" href="documents/research/offers/spatial-temporal-information-diffusion-modelling-extremist.pdf">subject2</a>
+		
+        </div>
+
+        <div class="slider-wrapper">
+            <div id="slider" class="nivoSlider">
+                <img src="images/slides/poza-mea.png" width="383" height="198" alt=""/>
+		<img src="images/slides/poza-mea-3.png" width="383" height="198" alt=""/>
+		<img src="images/slides/ictai2012_slide.png" width="383" height="198" alt="" title="#ictai2012"/>
+            </div>
+            <div id="ictai2012" class="nivo-html-caption">
+		Presenting at the <a target="_blank" href="http://ictai12.unipi.gr/">conference ICTAI 2012</a>, November, Athens
+            </div>
+        </div>
+
+        <div class="row no-bottom-margin">
+
+            <section class="col">
+                <h2>Research</h2>
+
+                <p>My research revolves around artificial intelligence, machine learning and data mining. 
+		More specifically, I am interested in Social Media Analysis, Information Diffusion Models, Popularity Modelling and Prediction.</p>
+        
+                <p>My research project aims to link the dynamics of collective human attention to the individual actions of the users of online platforms.
+                The benefit of my research is to understand novel societal, such as the spread of misinformation and the role of social bots in recent political elections.
+                </p>
+
+		<p>See more about my <a target="_blank" href="#research">research</a>.</p>
+            </section>
+
+            <section class="col mid">
+                <h2>News</h2>
+
+         <p>
+		    2019-10: Together with Amelia Johns and Fracesco Bailo, I was awarded a prestigious Facebook grant on Using computational modelling of user behaviour and machine learning to counter the diffusion of hate speech across social media.
+		</p>
+
+        <p>
+		    2019-10: I wrote a piece for the influential media outlet The Conversation entitled <a href="https://theconversation.com/can-hiding-likes-make-facebook-fairer-and-rein-in-fake-news-the-science-says-maybe-124671">Can hiding likes make Facebook fairer and rein in fake news? The science says maybe</a>, which received significant attention on social media (Twitter & LinkedIn), from the FEIT and UTS media departments. Subsequently, I was interviewed <a href="http://radioadelaide.org.au/2019/10/10/hiding-the-number-of-likes-on-social-media/">on the radio</a> about the work and the phenomenon.  
+		</p>
+ 
+<!--        <p>-->
+<!--		    2019-04: <a target="_blank" href="https://methods.sagepub.com/video/srmpromo/ltprsh/studying-online-video-popularity-with-stochastic-computational-models">My interview with Sage Research Methods</a> just got published, in which I discuss using stochastic computational models to study the popularity of online videos. -->
+<!--		</p>-->
+
+<!--        <p>-->
+<!--		    2019-03: I am doing a one month research visit at the French CNRS <a target="_blank" href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/index.html">laboratory Hubert Curien<a/>, where I will be working with <a target="_blank" href="https://perso.univ-st-etienne.fr/largeron/">Christine Largeron<a/> on linking the dynamics online communities and information diffusion processes.-->
+<!--		</p>-->
+
+<!--        <p>-->
+<!--		    2019-01: I just joined the <a target="_blank" href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a> in the <a target="_blank" href="https://www.uts.edu.au/">University of Technology Sydney<a/> as a Lecturer in Computer Science.-->
+<!--		</p> -->
+
+<!--        <p>-->
+<!--		    2018-09: We've got the attention of the media! Both the <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9"><strong>Business Insider</strong></a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election"><strong>ANU Reporter</strong></a> wrote about our findings concerning the bot influence in the 2016 US Elections.-->
+<!--		</p> -->
+
+<!--	    <p>-->
+<!--		    2018-06: Just returned from <a target="_blank" href="http://www.icwsm.org/2018/index.php"><strong>ICWSM 2018</strong></a> in Palo Alto, California, where our team presented three papers. I also visited and gave invited talks at <a target="_blank" href="https://research.netflix.com/">Netflix Research</a> and <a target="_blank" href="https://research.fb.com/">Facebook Core Research</a>. See more details <a target="_blank" href="#grants">here</a>.-->
+<!--		</p> -->
+
+<!--	    <p>-->
+<!--		    2018-05: After the <a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France, I have visited for a week the <a target="_blank" href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems</a> in Kaiserslautern, Germany, hosted by the team of <a target="_blank" href="https://people.mpi-sws.org/~manuelgr/">Manuel Gomez Rodriguez</a>, one of the top groups world-wide in stochastic modeling.-->
+<!--		</p> -->
+
+<!--	    <p>-->
+<!--		    2018-03: Three of our papers just got accepted at <a target="_blank" href="http://www.icwsm.org/2018/index.php"><strong>ICWSM 2018</strong></a>, the top computational social science conference.-->
+<!--            Rendez-vous in Stanford, California, US.-->
+<!--		</p>-->
+
+<!--	    <p>-->
+<!--		    2018-01: Our slick-looking HIPie popularity explorer tool will be showcased at the <a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France.-->
+<!--		    Check out it's <a target="_blank" href="https://www.youtube.com/watch?v=Kc7awEMdNtA">video tutorial</a>, <a target="_blank" href="https://github.com/computationalmedia/hipdemo">Github repository</a> and <a target="_blank" href="http://hipdemo.ml/">live installation</a>.-->
+<!--		</p>-->
+
+<!--        <p>-->
+<!--		    2017-12: Our paper "SIR-Hawkes: on the Relationship Between Epidemic Models and Hawkes Point Processes" has just been accepted at the -->
+<!--		<a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France!-->
+<!--		</p>-->
+
+<!--	    <p>-->
+<!--		2016-05-03: Check out our brand new <a target="_blank" href="http://cm.cecs.anu.edu.au"><strong>Computational Media lab</strong> page</a>.-->
+<!--		</p>-->
+
+<!--	    <p>-->
+<!--		2016-03-16: Our work got the attention of Wikimedia Research! I presented "Evolution of Privacy Loss on Wikipedia" in the March session of the <a target="_blank" href="https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016"><strong>Monthly Wikimedia Research Showcase</strong></a>. See recording <a target="_blank" href="https://youtu.be/Xle0oOFCNnk">here</a>.-->
+<!--		</p>-->
+
+<!--        <p>-->
+<!--		2015-10: Our paper "Evolution of Privacy Loss on Wikipedia" has just been accepted at the -->
+<!--		<a target="_blank" href="http://www.wsdm-conference.org/2016/"><strong>WSDM 2016</strong></a> conference in San Francisco!-->
+<!--		</p>-->
+               
+<!--        <p>-->
+<!--		2015-09: Our paper "ClusPath: A Temporal-driven Clustering to Infer Typical Evolution Paths" has been accepted for publication with the journal of -->
+<!--		<a target="_blank" href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10618"><strong>Data Mining and Knowledge Discovery</strong></a>-->
+<!--		</p>-->
+                
+<!--        <p>-->
+<!--		This year 2015, I give lectures about Machine Learning and Social Media and Sentiment Analysis in the context of the -->
+<!--		<a target="_blank" href="http://programsandcourses.anu.edu.au/course/comp4650">Document Analysis course</a>,-->
+<!--		with the <a target="_blank" href="http://cs.anu.edu.au/">Research School of Computer Science</a> at the ANU.-->
+<!--		</p>-->
+
+<!--                <p>-->
+<!--		Since May 2014, I am at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Canberra, Australia, as a researcher, -->
+<!--		working with <a target="_blank" href="http://web.media.mit.edu/~cebrian/">Manuel Cebrian</a>, <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/">Lexing Xie</a> -->
+<!--		and <a target="_blank" href="https://www.nicta.com.au/people/pvanhentenryck">Pascal Van Hentenryck</a>.-->
+<!--		</p>-->
+		                
+<!--                <p>-->
+<!--		Starting from May 2014, I will be at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Canberra, Australia, in a research visit and I will -->
+<!--		be working with <a target="_blank" href="http://web.media.mit.edu/~cebrian/">Manuel Cebrian</a> and <a target="_blank" href="https://www.nicta.com.au/people/pvanhentenryck">-->
+<!--		Pascal Van Hentenryck</a>.-->
+<!--		</p>-->
+
+<!--                <p>-->
+<!--		On the 24th of June, I defended my PhD thesis, entitled "Semi-Supervised Structuring of Complex Data", and I obtained -->
+<!--		the title of PhD from the University Lumière Lyon 2. The thesis manuscript is available <a target="_blank" href="documents/research/papers/RIZOIU_PHD_Thesis-2013.pdf">here</a>.-->
+<!--		</p>-->
+
+<!--                <p>-->
+<!--		In July, I will be at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Australia, in a research visit and I will -->
+<!--		be working with <a target="_blank" href="http://tiberiocaetano.com/">Tiberio Caetano</a>.-->
+<!--		</p>-->
+
+<!--                <p>-->
+<!--		In August, I will participate at the Doctoral Consortium of the <a target="_blank" href="http://ijcai13.org/">International Joint -->
+<!--		Conference on Artificial Intelligence</a>. My submission entitled -->
+<!--		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-DC-2013.pdf">"Semi-Supervised Structuring of Complex Data"</a>, has -->
+<!--		been accepted for publication in the Proceedings of IJCAI'13.-->
+<!--		</p>-->
+
+<!--                <p>-->
+<!--		The paper <a target="_blank" href="documents/research/papers/RIZOIU_JIIS-2013-preprint.pdf">"Unsupervised Feature Construction for 			Improving Data Representation and Semantics"</a>, written with <a target="_blank" href="http://mediamining.univ-lyon2.fr/people/velcin">J. 		Velcin </a> and <a target="_blank" href="http://eric.univ-lyon2.fr/~lallich/">S. Lallich </a>, has been accepted for publication in 			<a target="_blank" href="http://link.springer.com/journal/10844">JIIS</a>.-->
+<!--		</p>-->
+
+<!--		<p>-->
+<!--		I was part of the organizational committee and head of the volunteers team for the joint organization of the conferences 		<a target="_blank" href="http://eric.univ-lyon2.fr/alt-ds-2012/">ALT'12 and DS'12</a>.-->
+<!--		</p>-->
+
+<!--		<p>-->
+<!--		I gave a lecture on <a target="_blank" href="documents/research/presentations/RIZOIU_JIIS-2013_presentation.pdf">Using a Pareto Front 			for a Non-Supervised Feature Construction Algorithm</a> <img src="images/french.gif">.-->
+<!--		</p>-->
+            </section>
+
+            <aside>
+
+                    <h2>Contact Information</h2>
+
+                    <p>
+                    Phone: <img height=25px src="images/phone-number.png" /> <br />
+                    Email: &nbsp;Marian-Andrei.Rizoiu [@] uts.edu.au
+                    </p>
+
+                    <p>
+                    Posting address: <br />
+		            Building 11, 81 Broadway, <br />
+   		            Faculty of Engineering and IT, <br />
+		            University of Technology Sydney, <br />
+                    Ultimo, NSW, 2007, <br />
+                    Australia <br />
+                    </p>
+
+
+            </aside>
+        </div>
+
+        <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+      <!-- my publications --> 
+      <section id="publications" >
+      
+      
+      
+<!--<p><script type="text/javascript" src="http://www.rizoiu.eu/js/bibtex_js.js"></script>-->
+<!--<bibtex src="http://www.rizoiu.eu/documents/publications.bib"></bibtex>-->
+<!--<div style="margin-right: 10px; margin-top: -100px; float:right">-->
+<!--  <div class="input-group">-->
+<!--    <span class="input-group-addon"><i class="fa fa-search"></i></span>-->
+<!--    <input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications">-->
+<!--  </div>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--  <div class="col-sm-12">-->
+<!--    <div id="bibtex_display" style="padding: 0 10px;"></div>-->
+<!--    <div class="bibtex_structure">-->
+<!--      <div class="group year" extra="DESC number">-->
+<!--        <div class="row">-->
+<!--          <div id="year-title" class="col-sm-12">-->
+<!--            <div class="title"></div>-->
+<!--          </div>-->
+<!--          <div class="col-sm-12">-->
+<!--            <div class="templates"></div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="bibtex_template">-->
+<!--      <ul style="list-style-type:none">-->
+<!--        <li class="if author" style="font-weight: normal;">-->
+<!--          <b><span class="title"></span></b>,-->
+<!--          <span class="author"></span>,-->
+<!--          <span class="if booktitle">-->
+<!--            <span class="booktitle"></span>,-->
+<!--          </span>-->
+<!--          <span class="if journal">-->
+<!--            <span class="journal"></span>,-->
+<!--          </span>-->
+<!--          <span class="year"></span>-->
+<!--          <span class="if url" style="margin-left: 2px; font-size:16px">-->
+<!--            <a class="url" target="_blank">-->
+<!--              <i class="fa fa-link" aria-hidden="true"></i></a>-->
+<!--          </span>-->
+<!--          <span class="if url_paper" style="margin-left: 2px; font-size:16px">-->
+<!--            <a class="url_paper" target="_blank">-->
+<!--              <i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
+<!--          </span>-->
+<!--          <span class="if url_code" style="margin-left: 2px; font-size:16px">-->
+<!--            <a class="url_code" target="_blank">-->
+<!--              <i class="fa fa-github" aria-hidden="true"></i></a>-->
+<!--          </span>-->
+<!--          <span class="if url_slides" style="margin-left: 2px; font-size:16px">-->
+<!--            <a class="url_slides" target="_blank">-->
+<!--              <i class="fa fa-newspaper-o"></i></a>-->
+<!--          </span>-->
+<!--          <span class="if abstract" style="margin-left: 2px;">-->
+<!--            <div class="morepage" >-->
+<!--              <span class="bibtexkey"></span>-->
+<!--              <span class="abstract noread"></span>-->
+<!--            </div>-->
+<!--          </span>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div></p>-->
+      
+
+<!--      <script src="https://bibbase.org/service/mendeley/e9e46ea0-fb48-36ef-8770-e7275b41917b?theme=simple&jsonp=1"></script> -->
+
+       <h1>My Publications.</h1>
+<!--       <script src="http://bibbase.org/service/mendeley/e9e46ea0-fb48-36ef-8770-e7275b41917b?theme=simple&jsonp=1"></script>-->
+<!--      <iframe src="https://bibbase.org/service/mendeley/e9e46ea0-fb48-36ef-8770-e7275b41917b" onload='resizeIframe(this)'></iframe> -->
+<!--        <iframe id="containter-frame" -->
+<!--                src="https://bibbase.org/service/mendeley/e9e46ea0-fb48-36ef-8770-e7275b41917b"-->
+<!--                frameborder="0"-->
+<!--                min-height="100px"-->
+<!--                width="100%">-->
+<!--        </iframe>-->
+
+<!--        <iframe id="ifrm" src="https://bibbase.org/service/mendeley/e9e46ea0-fb48-36ef-8770-e7275b41917b"></iframe>-->
+
+	     <h2>Peer reviewed conferences and journals</h2>
+	     <ul>
+	     
+	        <li>
+	        Kern, M. L., McCarthy, P. X., Chakrabarty, D., & <strong>Rizoiu, M.-A.</strong> (2019). &quot;Social media-predicted personality traits and values can help match people to their ideal jobs.&quot; in <strong>Proceedings of the National Academy of Sciences (PNAS)</strong>, 116(52), 26459–26464. <a target="_blank" href="https://doi.org/10.1073/pnas.1917942116">DOI: 10.1073/pnas.1917942116</a>
+	        <br/> 
+
+			preprint:
+	     		<a target="_blank" href="https://www.pnas.org/content/pnas/116/52/26459.full.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SI:
+	     		<a target="_blank" href="https://www.pnas.org/highwire/filestream/902114/field_highwire_adjunct_files/0/pnas.1917942116.sapp.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/behavioral-ds/VocationMap" type="text/plain">Source code and datasets</a>
+			</li>
+			
+	        <li>
+	        Kong, Q., <strong>Rizoiu, M.-A.</strong>, & Xie, L., &quot;Modeling Information Cascades with Self-exciting Processes via Generalized Epidemic Models,&quot; in <strong>ACM International Conference on Web Search and Data Mining (WSDM’19)</strong>, 2019, (p. 9). Houston, Texas.
+	        <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1910.05451.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/avalanchesiqi/networked-popularity" type="text/plain">Source code and datasets</a>-->
+			</li>
+			
+	        <li>
+	        Zhang, R., Walder, C., & <strong>Rizoiu, M.-A.</strong> &quot;Variational Inference for Sparse Gaussian Process Modulated Hawkes Process.&quot; in <strong>AAAI Conference on Artificial Intelligence (AAAI’20)</strong>. New York, New York, USA, 2020.
+	        <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1905.10496.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/avalanchesiqi/networked-popularity" type="text/plain">Source code and datasets</a>-->
+			</li>
+			
+	        <li>
+	        Dawson, N. J., <strong>Rizoiu, M.-A.</strong>, Johnston, B., & Williams, M.-A., &quot;Adaptively selecting occupations to detect skill shortages from online job ads,&quot; in <strong>IEEE International Conference on Big Data (IEEE Big Data 2019)</strong>, 2019, Los Angeles, CA, USA.
+	        <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1911.02302.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/avalanchesiqi/networked-popularity" type="text/plain">Source code and datasets</a>-->
+			</li>
+
+	        <li>
+	        S. Wu, <strong>M.-A. Rizoiu</strong>, and L. Xie, &quot;Estimating Attention Flow in Online Video Networks,&quot; in <strong>ACM Conference on Computer-Supported Cooperative Work and Social Computing</strong>, 2019, pp. 1--21. <a target="_blank" href="https://doi.org/10.1007/s42001-019-00051-x">DOI: 10.1145/3359285</a>
+	        <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1908.07123.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/avalanchesiqi/networked-popularity" type="text/plain">Source code and datasets</a>
+			</li>
+	        
+            <li>
+            D. Kim, T. Graham, Z. Wan, & <strong>M.-A. Rizoiu</strong>. &quot;Analysing user identity via time-sensitive semantic edit distance (t-SED): a case study of Russian trolls on Twitter,&quot; in <strong>Journal of Computational Social Science</strong>, pp. 1-21. 2019. <a target="_blank" href="https://doi.org/10.1007/s42001-019-00051-x">DOI: 10.1007/s42001-019-00051-x</a>
+            <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1901.05228.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/computationalmedia/cascade-influence" type="text/plain">Source code and datasets</a>-->
+			</li>
+	        
+            <li>
+            A.-S. Mihaita, H. Li, Z. He and <strong>M.-A. Rizoiu</strong>. &quot;Motorway Traffic Flow Prediction using Advanced Deep Learning, &quot; in <strong>Intelligent Transportation Systems Conference (ITSC'19)</strong>, Auckland, New Zealand, 2019.<a target="_blank" href="https://doi.org/10.1109/ITSC.2019.8916852">DOI: 10.1109/ITSC.2019.8916852</a> <br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1907.06356.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/computationalmedia/cascade-influence" type="text/plain">Source code and datasets</a>-->
+			</li>
+	        
+            <li>
+            R. Zhang, C. Walder, <strong>M.-A. Rizoiu</strong> and L. Xie. &quot;Efficient Non-parametric Bayesian Hawkes Processes, &quot; in <strong>International Joint Conference on Artificial Intelligence (IJCAI’19)</strong>, Macao, China, 2019.<br/> 
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1810.03730.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/RuiZhang2016/Efficient-Nonparametric-Bayesian-Hawkes-Processes" type="text/plain">Source code and datasets</a>
+			</li>
+
+            <li>
+            A.-S. Mihaita, Z. Liu, C. Cai, and <strong>M.-A. Rizoiu</strong>. &quot;Arterial incident duration prediction using a bi-level framework of extreme gradient-tree boosting, &quot; in <strong>Proceedings of the 26th ITS World Congress (ITSWC ’19)</strong>, Singapore, Singapore, 2019.<br/>
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1905.12254.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="https://github.com/computationalmedia/cascade-influence" type="text/plain">Source code and datasets</a>-->
+			</li>
+
+	        <li>
+	        <strong>M.-A. Rizoiu</strong>, T. Graham, R. Zhang, Y. Zhang, R. Ackland and L. Xie, &quot;#DebateNight: The Role and Influence of Socialbots on Twitter During the 1st 2016 U.S. Presidential Debate, &quot; in <strong>Proc. International AAAI Conference on Web and Social Media (ICWSM ’18)</strong>, Stanford, CA, USA, 2018.<br/>   
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1802.09808.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/computationalmedia/cascade-influence" type="text/plain">Source code and datasets</a>
+			</li>
+
+	        <li>
+            S. Wu, <strong>M.-A. Rizoiu</strong>, & L. Xie, &quot;Beyond Views: Measuring and Predicting Engagement in Online Videos, &quot; in <strong>Proc. International AAAI Conference on Web and Social Media (ICWSM ’18)</strong>, Stanford, CA, USA, 2018.<br/>   
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1709.02541.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/WU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/WU_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/avalanchesiqi/youtube-engagement" type="text/plain">Source code and datasets</a>
+			</li>
+
+	        <li>
+            S. Mishra, <strong>M.-A. Rizoiu</strong>, & L. Xie, &quot;Modeling Popularity in Asynchronous Social Media Streams with Recurrent Neural Networks, &quot; in <strong>Proc. International AAAI Conference on Web and Social Media (ICWSM ’18)</strong>, Stanford, CA, USA, 2018.<br/>   
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1804.02101.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/MISHRA_ICWSM-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/computationalmedia/rnn-mas" type="text/plain">Source code and datasets</a>
+			</li>
+
+	        <li>
+	        <strong>M.-A. Rizoiu</strong>, S. Mishra, Q. Kong, M. Carman, and L. Xie, &quot;SIR-Hawkes: Linking Epidemic Models and Hawkes Processes to Model Diffusions in Finite Populations, &quot; in <strong>Proc. International Conference on World Wide Web (WWW '18)</strong>, Lyon, France, 2018.<br/>   
+
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1711.01679.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WWW-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_WWW-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/computationalmedia/sir-hawkes" type="text/plain">Source code and datasets</a>
+			</li> 
+			
+			<li>
+	        Q. Kong, <strong>M.-A. Rizoiu</strong>, S. Wu, and L. Xie, &quot;Will This Video Go Viral? Explaining and Predicting the Popularity of Youtube Videos, &quot; in <strong>Proc. International Conference on World Wide Web Companion (WWW '18)</strong>, Lyon, France, 2018.<br/>   
+
+			preprint + SI:
+	     	<a target="_blank" href="https://arxiv.org/pdf/1801.04117.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+-->
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/KONG_WWW-2018_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="http://www.hipie.ml/" type="text/plain">HIPie public installation</a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://youtu.be/x5xIf4vUScI/" type="text/plain">Youtube screencast</a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/computationalmedia/hipie" type="text/plain">Source code</a>
+			</li> 
+	     
+ 	     	<li>
+	     	<strong>M.-A. Rizoiu</strong> and L. Xie,  &quot;Online Popularity under Promotion: Viral Potential, Forecasting, and the Economics of Time, &quot; in <strong>Proc. International AAAI Conference on Web and Social Media (ICWSM '17)</strong>, Montréal, Canada, pp. 182–191, 2017.<br/>   
+			
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1703.01012.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; science slam:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICWSM-2017_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/andrei-rizoiu/hip-popularity" type="text/plain"> Source code and dataset</a>
+			</li> 
+	     
+	     	<li>
+	     	<strong>M.-A. Rizoiu</strong>, L. Xie, S. Sanner, M. Cebrian, H. Yu, and P. Van Hentenryck,  &quot;Expecting to be HIP: Hawkes Intensity Processes for Social Media Popularity, &quot; in <strong>Proc. International Conference on World Wide Web (WWW '17)</strong>, Perth, Australia, pp. 735-744, 2017.<br/>   
+			
+			preprint + SI:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1602.06033.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WWW-2017_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_WWW-2017_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!--	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>-->
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/andrei-rizoiu/hip-popularity" type="text/plain"> Source code and dataset</a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/andrei-rizoiu/hip-popularity#hip-visualization-system" type="text/plain"> Interactive visualization system</a>
+	     		
+			</li> 
+	     
+	      	<li>
+	      	S. Mishra, <strong>M.-A. Rizoiu</strong>, and L. Xie, &quot;Feature Driven and Point Process Approaches for Popularity Prediction, &quot; in <strong>Proc. International Conference on Information and Knowledge Management (CIKM ’16)</strong>, Indianapolis, USA, p. 1069-1078, 2016.<br/>  
+			
+			preprint + SI:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1608.04862.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 -->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+<!--			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:-->
+<!--	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>-->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/MISHRA_CIKM-2016_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/fdhawkesforpopularity/" type="text/plain"> Presentation page</a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://git.io/v6rIN" type="text/plain"> Source code and dataset</a>
+			</li> 
+	     
+ 	        <li>
+	        <strong>M.-A. Rizoiu</strong>, L. Xie, T. Caetano, and M. Cebrian &quot;Evolution of Privacy Loss on Wikipedia, &quot; in <strong>Proc. International Conference on Web Search and Data Mining (WSDM '16)</strong>, 2016, , pp. 215&ndash;224.   <br/>  
+			
+			preprint + SI:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1512.03523.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_WSDM-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_WSDM-2016_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="http://cm.cecs.anu.edu.au/post/wikiprivacy/index.html" type="text/plain"> Presentation page</a>
+			</li>   
+	     
+	        <li>
+	        Y.-M. Kim, J. Velcin, S. Bonnevay, and <strong>M.-A. Rizoiu</strong>, &quot;Temporal Multinomial Mixture for Instance-Oriented Evolutionary Clustering, &quot; in <strong>Proc. European Conference on Information Retrieval (ECIR '15)</strong>, 2015, pp. 593&ndash;604.  <br/>  
+			
+			preprint:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1601.02300.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ECIR-2015_preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+			</li>   
+
+    		<li>
+	     		<strong>M.-A. Rizoiu</strong>, J. Velcin, S. Bonnevay and S. Lallich, &quot;<a target="_blank" href="http://dx.doi.org/10.1007/s10618-015-0445-7">ClusPath: A Temporal-driven Clustering to Infer Typical Evolution Paths</a>,&quot; <strong>Data Mining and Knowledge Discovery</strong>, pp. 1&ndash;26, 2015.  <br/> 
+	     		
+			preprint + SI:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1512.03501.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_PKDD-2016_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_PKDD-2016_poster.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_DAMI_2015-preprint.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	     		<a target="_blank" href="https://github.com/andrei-rizoiu/cluspath-distrib" type="text/plain"> Source code and dataset</a>
+	     
+     		</li>
+
+			<li>
+	     		<strong>M.-A. Rizoiu</strong>, J. Velcin, and S. Lallich, &quot;<a target="_blank" href="http://dx.doi.org/10.3233/IDA-140702">Semantic-enriched Visual Vocabulary Construction in a Weakly Supervised Context</a>,&quot; <strong>Intelligent Data Analysis</strong>, vol. 19, iss. 1, pp. 161&ndash;185, 2015.  <br/> 
+			
+			preprint:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1512.04605.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IDA-2015.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+     		</li>
+
+	     		<strong>M.-A. Rizoiu</strong>, J. Velcin, and S. Lallich, &quot;<a target="_blank" href="http://dx.doi.org/10.1142/S0218213014600136">How to use Temporal-Driven Constrained Clustering to detect typical evolutions</a>,&quot; <strong>International Journal of Artificial Intelligence Tools</strong>, vol. 23, iss. 4, pp. 1460013, 2014.
+
+	     		<br/>   
+			preprint:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1601.02603.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IJAIT-2014.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+     		</li>
+	     
+			<li>
+	     		<strong>M.-A. Rizoiu</strong>, J. Velcin, and S. Lallich, &quot;
+	     		<a target="_blank" href="http://link.springer.com/article/10.1007/s10844-013-0235-x">
+	     			Unsupervised Feature Construction for Improving Data Representation and Semantics
+	     		</a>
+	     		,&quot; <strong>Journal of Intelligent Information Systems</strong>, vol. 40, iss. 3, pp. 501&ndash;527, 2013.  <br/>   
+			
+			preprint:
+	     		<a target="_blank" href="http://arxiv.org/pdf/1512.05467.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_JIIS-2013.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+     		</li>
+
+			<li>
+			<strong>M.-A. Rizoiu</strong>, &quot;Semi-Supervised Structuring of Complex Data, &quot; in <strong>Proc. Doctoral Consortium of the International Joint Conference on Artificial Intelligence (IJCAI '13)</strong>, 2013, pp. 3239&ndash;3240.  <br/>  
+			
+			preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-DC-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:	     		 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_IJCAI-DC-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; poster:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_IJCAI-DC_Poster-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-DC-2013.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+			</li>
+			<li>
+	     		<strong>M.-A. Rizoiu</strong>, J. Velcin, and S. Lallich, &quot;Structuring typical evolutions using Temporal-Driven Constrained Clustering,&quot; in <strong>Proc. International Conference on Tools with Artificial Intelligence (ICTAI '12)</strong>, 2012, pp. 610&ndash;617. <br/>  
+	     		
+	     		preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICTAI-2012-preprint.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a> 
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ICTAI-2012-slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ICTAI-2012.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+	     		</li>
+			<li>
+	     		C. Musat, J. Velcin, S. Trausan-Matu, and <strong>M.-A. Rizoiu</strong>, &quot;Improving topic evaluation using conceptual knowledge,&quot; in <strong>Proc. International Joint Conference on Artificial Intelligence (IJCAI '11)</strong>, 2011, pp. 1866&ndash;1871. <br/>  
+	     		
+	     		preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-2011.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-2011.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+	     		</li>
+	     		
+	     		<li>			
+			C. Musat, J. Velcin, <strong>M.-A. Rizoiu</strong>, and S. Trausan-Matu, &quot;Concept-based Topic Model Improvement,&quot; in <strong>Proc. International Symposium on Methodologies for Intelligent Systems (ISMIS '11)</strong>, 2011, pp. 133&ndash;142. <br/>  
+			
+			preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ISMIS-2011.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_ISMIS-2011.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+			</li>
+			
+			<li>
+			    C. Musat, <strong>M.-A. Rizoiu</strong>, and S. Trausan-Matu, &quot;<a target="_blank" href="http://rochi.utcluj.ro/rrioc/en/rrioc-2010-2.html#An_Intra_and_Inter-Topic_Evaluation_and">An Intra and Inter-Topic Evaluation and Cleansing Method</a>,&quot; <strong>Romanian Journal of Human-Computer Interaction</strong>, vol. 3, iss. 2, pp. 81&ndash;96, 2010. <br/>
+			    
+			    preprint: <a target="_blank" href="documents/research/papers/RIZOIU_RRIOC-2010.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+			    <a target="_blank" href="documents/research/papers/RIZOIU_RRIOC-2010.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+			</li>
+
+			<li>			
+			<strong>M.-A. Rizoiu</strong>, J. Velcin, and J.-H. Chauchat, &quot;Regrouper les données textuelles et nommer les groupes à l'aide des classes recouvrantes,&quot; in <strong>Proc. Extraction et Gestion des Connaissances (EGC '10)</strong>, 2010, pp. 561&ndash;572. <br/> preprint:	     		 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_EGC-2010.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a> 
+	     		 
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_EGC-2010-slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		 
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_EGC-2010.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+			</li>
+			
+	     </ul>
+	     
+	     <h2>Book chapters</h2>
+	     <ul>
+			<li>
+            <strong>M.-A. Rizoiu</strong>, Y. Lee, S. Mishra, L. Xie &quot;A Tutorial on Hawkes Processes for Events in Social Media,&quot; in book: <strong>Research Frontiers of Multimedia,</strong> S.-F. Chang (Ed.), pp. 1&ndash;26, 2017. ACM Books.<br/>   
+   		 	
+   		 	preprint:
+	     		<a target="_blank" href="https://arxiv.org/pdf/1708.06401.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+<!--	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: -->
+<!--	     		<a target="_blank" href="documents/research/papers/RIZOIU_OntologyLeaning-chapter-2010.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>-->
+     		</li>
+
+			<li>
+   		 	<strong>M.-A. Rizoiu</strong> and J. Velcin, &quot;Topic Extraction for Ontology Learning,&quot; in book: <strong>Ontology Learning and Knowledge Discovery Using the Web: Challenges and Recent Advances,</strong> pp. 38&ndash;61, 2011. <br/>   
+   		 	
+   		 	preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_OntologyLeaning-chapter-2010-preprint.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_OntologyLeaning-chapter-2010.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+     		</li>
+	     		
+	     </ul>
+
+	     <h2>Theses</h2>
+	     <ul>
+			<li>
+   		 	<strong>M.-A. Rizoiu</strong>, &quot;Semi-Supervised Structuring of Complex Data,&quot; PhD Thesis, University Lumière Lyon 2, June, 2013. <br/>   
+			preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_PHD_Thesis-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a> 
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; abstract:
+	     		<a target="_blank" href="documents/research/RIZOIU_research-topics_english.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_PhD-defense-2013-slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/french.gif"> short version:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_PHD_Thesis_french_short-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/french.gif"> abstract:
+	     		<a target="_blank" href="documents/research/RIZOIU_research-topics_french.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_PHD_Thesis-2013.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>	     		
+	     		</li>
+	     		
+
+			<li>
+   		 	<strong>M.-A. Rizoiu</strong>, &quot;Textual Data Clustering and Cluster Naming,&quot; Master's Dissertation, 2009. <br/>   
+			preprint:
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_Masters_thesis-2009.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slides:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_Masters_thesis-2009-slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     		
+	     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bibtex: 
+	     		<a target="_blank" href="documents/research/papers/RIZOIU_Masters_thesis-2009.bib" type="text/plain"> <img width=20px src="images/actions/download-bibtex.svg" /></a>
+	     		</li>
+	     		
+	     </ul>
+
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+      <!-- research -->
+      <section id="research"  class="clearfix">
+
+            <h1>Research topics.</h1>
+	    <div class="primary">
+
+                <p class="intro">
+                Online social media is increasingly prevalent in shaping “offline” events, ranging from Twitter’s role in the 2016 US presidential campaign to the recent allegations that Facebook was used to
+convey hateful and racist messages towards the Rohingya minority in Myanmar. My research aims to tackle the grand challenge of assessing and mitigating the impact of online social media on the fundamental processes of our society. By successfully modeling and predicting the dynamics of online human attention, the benefit of my research is to understand novel societal and economic “offline” phenomena, like the spread of misinformation and the role of social bots in recent political elections, the link between the spread of hateful messages and violences towards minorities, or the emergence of disruptive business models like Uber or Airbnb.
+		        </p>
+
+
+		<h2>A little more details</h2>
+		
+		<p>
+		My current research interest is to model theoretically popularity on online media, as well as estimate the influence of media content and network characteristics on online attention. 
+		We established a generative model that predicts online attention, based on an exogenously-driven Hawkes self-exciting processes.
+		We also examine the geographical diffusion of media content over time and the goal is to generate statistical descriptions of content 
+		diffusion over time and geographical areas.
+		We are handling very large Twitter datasets (the network), which relate to Youtube videos (the content).
+		</p>
+		
+		<p>
+		My previous work dealt with how partial expert information can be leveraged into a non-supervised learning algorithm that treats complex data. 
+		This complex data is of different natures (text, image), it is temporal and structured, linked to knowledge repository (e.g. ontology) and/or labeled. 
+		Semi-supervised clustering is used to model the additional information (structure, labels, time) and to inject the heterogeneous information into the 
+		learning algorithm.
+		A series of application emerge from the theoretical research: using the temporal dimension to detect temporal patters and typical evolutions, 
+		using the image labels to improve image numerical representation and an automatic topic evaluation using concept trees.
+
+        </p>
+        
+        <h2>Sage Research Methods interview</h2>
+            
+            <p> Below is an interview given to Sage Research Methods in which I describe my research. The interview discusses using stochastic computational models to study the popularity of online videos, including a focus on computational social science, current research, data collection and access, identification of relevant data, how data is prepared and processed, determining the computational models to use and applying them, training or organizing the data, adjustments to the research, running the models, next for this research, and advice for others interested in this type of research.
+            </p>
+            <iframe scrolling="no" webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true" width="610" height="343" src="https://methods.sagepub.com/video/embed/srmpromo/ltprsh/studying-online-video-popularity-with-stochastic-computational-models">Your browser does not support iFrames.</iframe>
+
+        <h2>Science slam</h2>
+            <p>
+                A science slam is the challenge to describe a research topic to a non-expert, with a twist of humor.
+                At the <a target="_blank" href="https://sites.google.com/site/icwsmscienceslam/">ICWSM'17 science slam</a> I talked about how to link exogenous stimuli and endogenous reactions to explain online popularity.
+    		</p>
+                
+            <video id="ScienceSlam"width="610" preload=“metadata” controls>
+<!--	            <source src="http://users.cecs.anu.edu.au/~u5673898/documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.mp4" /> <!-- CECS server -->-->
+   	            <source src="documents/research/presentations/RIZOIU_ICWSM-2017_science_slam.mp4" /> <!-- local (rizoiu.eu) server -->
+            </video>
+	            
+	            
+<!--                <h2>My collaborators</h2>-->
+<!--                <ul class="the-team">-->
+<!--                    <li class="odd">-->
+<!--                        <div class="thumbnail">-->
+<!--                            <a target="_blank" href="http://web.media.mit.edu/~cebrian/"><img alt="thumbnail" src="images/research/manuelCebrian.png" width="83" height="78"></a>-->
+<!--                        </div>-->
+<!--                        <p class="mname"><a target="_blank" href="http://web.media.mit.edu/~cebrian/">Manuel Cebrian</a></p>-->
+<!--                        <p>Senior Scientist,<br /> Data61</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <div class="thumbnail">-->
+<!--                            <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/"><img alt="thumbnail" src="images/research/lexingXie.png"  height="78"></a>-->
+<!--                        </div>-->
+<!--                        <p class="mname"><a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/">Lexing Xie</a></p>-->
+<!--                        <p>Senior Lecturer,<br />-->
+<!--			Australian National University & Data61.</p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+                
+
+<!--                <ul class="the-team">-->
+<!--                    <li class="odd">-->
+<!--                        <div class="thumbnail">-->
+<!--                            <a target="_blank" href="http://tiberiocaetano.com/"><img alt="thumbnail" src="images/research/tiberioCaetano.png" width="83" height="78"></a>-->
+<!--                        </div>-->
+<!--                        <p class="mname"><a target="_blank" href="http://tiberiocaetano.com/">Tiberio Caetano</a></p>-->
+<!--                        <p>Principal Researcher, <br /> Data61, Ambiata</p>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <div class="thumbnail">-->
+<!--                            <a target="_blank" href="http://pascalvanhentenryck.engin.umich.edu/"><img alt="thumbnail" src="images/research/pascalVanHentenryck.png"  height="78"></a>-->
+<!--                        </div>-->
+<!--                        <p class="mname"><a target="_blank" href="http://pascalvanhentenryck.engin.umich.edu/">Pascal Van Hentenryck</a></p>-->
+<!--                        <p>Professor at <br />-->
+<!--			University of Michigan.</p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+
+
+            </div>
+
+            <aside>
+
+		    <h2>More about my research</h2>
+
+            <p>
+            Here is a short (1 page) research statement, outlining the challenges that my research tackles, and the privileged methods and tools to address them.
+		    </p>
+
+            <a target="_blank" href="documents/RIZOIU_research-vision-statement.pdf" class="download-btn">Research statement</a>
+            
+		    <h2 class="spaced">Academic Software</h2>
+
+            <p> <strong>HIPie</strong> <br/>
+			HIPie is an interactive visualizer that enables users to reason about the virality and the popularity of online videos. 
+            It retrieves the metadata and the past popularity series of Youtube videos, it employs the Hawkes Intensity Process, our a state-of-the-art online popularity model for
+explaining and predicting video popularity, and it presents videos comparatively in a series of interactive plots.<br/>
+
+		    <a target="_blank" href="http://www.hipie.ml/" type="text/plain">Public installation</a><br/>
+     		<a target="_blank" href="https://youtu.be/x5xIf4vUScI/" type="text/plain">Youtube screencast</a><br/>
+     		<a target="_blank" href="https://github.com/computationalmedia/hipie" type="text/plain">Source code</a><br/>
+		    </p>
+
+            <p> <strong>CommentWatcher</strong> <br/>
+			CommentWatcher is an open source tool aimed at analyzing discussions on web forums. 
+			It features automatic fetching of the forums using a versatile parser architecture, topic extraction from a selection of texts and a temporal visualization of extracted 
+			topics and the underlying social network of users. 
+
+<!--		    <a target="_blank" href="http://eric.univ-lyon2.fr/~commentwatcher/cgi-bin/CommentWatcher.cgi/CommentWatcher/" class="download-btn">Source code and install</a>-->
+		    <a target="_blank" href="http://rizoiu.eu/commentwatcher" type="text/plain">Presentation website</a> <br/>
+     		<a target="_blank" href="http://rizoiu.eu/commentwatcher/Video_demonstration.html" type="text/plain">Screencast</a> <br/>
+		    </p>
+
+                    <h2 >Affiliations</h2>
+
+                    <ul class="affiliations">
+                    	<li>
+                    	    <a target="_blank" href="http://anu.edu.au" title="Australian National University"><img  height="70" src="images/research/logo-UTS.png"/></a>
+<!--                    		<a target="_blank" href="http://anu.edu.au" title="Australian National University"><img  height="50" class="affiliation" src="images/research/logo-ANU.png"/></a>-->
+            				<a target="_blank" href="http://www.csiro.au/en/Research/D61" title="Data61@CSIRO"><img class="affiliation" src="images/research/logo-data61.png" height="78"/></a>
+                    	</li>
+<!--                        <li>-->
+<!--				<a target="_blank" href="http://eric.univ-lyon2.fr" title="Entrepôts, Représentation et Ingénierie des Connaissances"><img class="affiliation" src="images/research/eric.png" /></a>-->
+<!--				<a target="_blank" href="http://www.univ-lyon2.fr" title="Université Lumière Lyon2"><img class="affiliation" src="images/research/lyon2.png" /></a>-->
+<!--			</li>-->
+<!--                        <li>-->
+<!--				<a target="_blank" href="http://lyon-university.org/" title="Université de Lyon"><img class="affiliation" src="images/research/universite_de_Lyon.png" /></a>-->
+<!--			</li>-->
+                    </ul>
+
+<!--		    <h2 class="spaced">Interesting Links</h2>-->
+
+<!--                    <ul class="link-list">-->
+<!--                        <li><a target="_blank" href="http://www.univ-lyon2.fr" title="Lyon2 University">Lyon2 University</a></li>-->
+<!--                        <li><a target="_blank" href="http://eric.univ-lyon2.fr" title="Entrepôts, Représentation et Ingénierie des Connaissances">ERIC Laboratory</a></li>-->
+<!--                        <li><a target="_blank" href="http://eric.univ-lyon2.fr/recherche/58-FR-equipe_data_mining_decision_dmd" title="Data Mining & Decision Team">DMD Research Axis</a></li>-->
+<!--                        <li><a target="_blank" href="http://mediamining.univ-lyon2.fr/people/velcin/imagiweb/" title="ImagiWeb Research Project">ImagiWeb Research Project</a></li>-->
+<!--			<li><a target="_blank" href="http://eric.univ-lyon2.fr/11-FR-membre-Marian-Andrei.RIZOIU" title="My professional page on the laboratory's website">My page on the laboratory's site</a></li>-->
+<!--                    </ul>-->
+
+            </aside>
+            <a class="back-to-top" href="#main">Back to Top</a>
+        </section>
+
+	<section id="grants" >
+	<h1>Grants & funding, projects and invited talks</h1>
+	
+	<h2> Competitive grants and funding - AU$0.6M</h2>
+	
+	    <ul>
+			<li>
+			    <strong>2020: Using computational modelling of user behaviour and machine learning to counter the diffusion of hate speech across social media</strong>, PI, US$60K, Facebook Research grants, <br/>
+			    Use ethnographic methods to identify and monitor a number of persona associated with hate speech diffusion targeting vulnerable populations.
+			</li>
+			
+			<li>
+			    <strong>2019: Tracking Disinformation Campaigns Across Terrains: Implications for Policy</strong>, PI, $50K, ANU National Security College's Green policy grants <br/>
+			    Quantify the scale of the problem of disinformation in order to co ‐design responses with policy partners. design responses with policy partners.
+			</li>
+			
+			<li>
+			    <strong>2019: SocialSense: Making sense of the opinions and interactions of online users</strong>, co-PI, $20K, UTS FEIT Cross-Faculty Scheme <br/>
+			    Studies opinion diffusion and polarization online, mixing an ethnographic approach with computational modelling of behaviour.
+			</li>
+			
+			<li>
+			    <strong>2019: Adaptive skills taxonomy to enable labor market agility</strong>, co-PI, $350K, Data61 Challenge model grants <br/>
+			    The ability to capture data about changing demand and supply of skills in a timely and efficient manner can provide much-needed information to inform educational and employment decisions, but we need to establish whether job advertisements accurately reflect sector-specific and geographic differences in demand for skills. 
+			    This project will conduct a survey of employers which we can use to test the validity of the data and taxonomy generated from our analysis of the job advertisements. 
+			</li>
+	    
+			<li>
+			    <strong>2018: Analyzing the role and influence of bots in social media</strong>, co-PI, $50K, ANU RSSS cross-college grants <br/>
+			    To what extent does the presence and influence of socialbots on Twitter differ across countries and issue areas?
+			    Did they infiltrate and outright manipulate the public opinion on polarized topics?
+			    This project quantifies the role and influence of automated diffusion systems in the online spread of information.
+			</li>
+
+			<li>
+			    <strong>2018: Identify Hate Speech and Predict Mass Atrocities</strong>, co-PI, $30K, ANU RSSS cross-college grants <br/>
+			    Can "hate speech" be reliably measured and characterized in massive amounts of digitized news and social-media text? 
+			    Can understanding and forecasting of political violence be improved by incorporating large-scale machine-generated data on hate speech in both unstable societies and established democracies?
+			</li>
+
+		</ul>
+	
+	<h2> Research projects </h2>
+
+		<ul>
+			<li>
+			<strong>2016 - 2019: The Anatomy of Social Media Popularity</strong> <br/>
+			Popularity is a social phenomenon, a state of being liked or supported by many people.
+			This project develops methods and tools for describing and predicting the popularity of online items.  </li>
+
+			<li>
+			<strong>2014 - 2017: Human Dynamics</strong> <br/>
+			The study of Human Dynamics operates at the intersection of the computer and social sciences, with a primary interest in 
+			social and financial networks, crowdsourcing, urban economics, behavioral game theory, and evolutionary dynamics. </li>
+
+			<li>
+			<strong>2012 – 2014: Project IMAGIWEB (financed by <abbr title="the French National Research Agency">
+			ANR</abbr>) </strong> <br/>
+			Analysis of the image life cycle of politicians and companies through the online media and microblogging of 
+			the Web 2.0.</li>
+
+			<li>
+			<strong>2012 – 2014: Project CRTT – ERIC (financed by University Lyon2)</strong> <br/>
+			Study of the evolution of the specialized discourse of the domain of nuclear medicine, taking into 
+			account	the temporal topics evolution and the different involved populations.</li>
+
+			<li>
+			<strong>2010 – 2011: Project ERIC-ELICO (financed by University Lyon2)</strong> <br/>
+			Joint analysis of the information extracted either by data mining techniques or manually by experts in
+			information science.</li>
+
+			<li>
+			<strong>2009: Project CONVERSESSION (financed by the Rhône-Alpes region)</strong> <br/>
+			Design of a novel platform for organizing and analyzing online debates. Project associated with the 
+			incubation of a start-up enterprise.</li>
+		</ul>
+		
+		<h2> Seminars and invited talks </h2>
+		
+		<ul>
+			<li>
+			    12/10/2018: <strong>The Role and Influence of Socialbots in the Democratic Process</strong>.
+			    Invited talk at the <a target="_blank" href="https://research.csiro.au/lasc/">Language and Social Computing Team, Data61 CSIRO</a> in Marsfield, Sydney. 
+			    
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/2018-10-12-socialbots-marsfield.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			    29/06/2018: <strong>Expecting to be HIP: Hawkes Intensity Processes for modeling online popularity and virality</strong>.
+			    Invited talk at <a target="_blank" href="https://research.fb.com/">Facebook Core Research</a> in Bay Area, California, USA. 
+			    
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/2018-06-29-facebook-talk.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			    22/06/2018: <strong>The popularity and the engagement of online videos</strong>.
+			    Invited talk at <a target="_blank" href="https://research.netflix.com/">Netflix Research</a> in Bay Area, California, USA, hosted by <a target="_blank" href="https://www.linkedin.com/in/sui-huang-86b97a2b/">Sui Huang</a>. 
+			    
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/2018-06-21-netflix-talk.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			    03/05/2018: <strong>Scalable influence estimation from online information diffusions</strong>.
+			    Invited talk at the <a target="_blank" href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems</a> in Kaiserslautern, Germany, hosted by <a target="_blank" href="https://people.mpi-sws.org/~manuelgr/">Manuel Gomez Rodriguez</a>. 
+			    
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/RIZOIU_ICWSM-2018_slides.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			    16/03/2016: <strong>Evolution of Privacy Loss in Wikipedia</strong>.
+			    Invited speaker for the <a target="_blank" href="https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016">March session of the Monthly Wikimedia Research Showcase</a>. 
+			
+			    <br/>slides: <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/6/6f/Wikimedia_Research_Showcase_--_March_2016.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="https://youtu.be/Xle0oOFCNnk">recording</a>
+	     	</li>
+	     	
+			<li>
+			    15/06/2015: <strong>Challenges of the social media: Information diffusion in social networks</strong>.
+			    Invited speaker with <a target="_blank" href="http://canberra.mae.ro/en/local-news/1043">Romanian Scientific Diaspora Symposium</a>. 
+			
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/2015-06-15_Romanian_Scientific_Diaspora_Symposium.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+	     	
+			<li>
+			    13/03/2014: <strong>Le contexte sémantique et la dimension temporelle dans l’analyse de données complexes</strong>.
+			    Invited speaker with <a target="_blank" href="http://lia.univ-avignon.fr/">Laboratoire d'Informatique d'Avignon</a>. 
+			
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/2014-03-13_LIA_seminar.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+	     	
+			<li>
+			    02/10/2013: <strong>CommentWatcher: plateforme Web open-source pour analyser les discussions sur des forums en ligne</strong>.
+			    Invited speaker with <a target="_blank" href="http://www.blendconference.com/">BLEND 2013 conference</a>. 
+			
+			    <br/>slides: <a target="_blank" href="documents/research/presentations/RIZOIU_Presentation_BLEND_2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			26/08/2013: <strong>Extracting and evaluating topics. CommentWatcher, an online forum analysis tool</strong>.
+			Invited speaker in the Chronological Text Mining session of the Research reunion of the  
+			<a target="_blank" href="http://www.isi2013.hk/en/">59th ISI World Statistical Congress</a>. 
+			
+			<br/>slides: 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_ISI_WSC-2013.pdf"> <img width=20px src="images/actions/download-pdf.svg" /></a>
+	     	</li>
+		
+			<li>
+			12/02/2013: <strong>Advancements in temporal clustering</strong>.
+			Research reunion of the  
+			<a target="_blank" href="http://eric.univ-lyon2.fr/recherche/58-FR-equipe_data_mining_decision_dmd" 
+				title="Data Mining & Decision Team">
+				DMD Team
+			</a>. 
+			
+			<br/>slides:
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_temporal-clustering-avancements-2013.pdf"> 
+	     			<img width=20px src="images/actions/download-pdf.svg" />
+	     		</a>
+	     		</li>
+		
+			<li>
+			21/01/2013: <strong>Using a Pareto Front for a Non-Supervised Feature Construction Algorithm</strong>.
+			Thematic day of the 
+			<a target="_blank" href="http://eric.univ-lyon2.fr/recherche/58-FR-equipe_data_mining_decision_dmd" 
+				title="Data Mining & Decision Team">
+				DMD Team
+			</a>: Using Multi-criteria Optimization.
+			
+			<br/>slides: 
+	     		<a target="_blank" href="documents/research/presentations/RIZOIU_pareto-front-2013.pdf"> 
+	     			<img width=20px src="images/actions/download-pdf.svg" />
+	     		</a>
+	     		</li>
+		</ul>
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+      </section>
+
+      <!-- Teaching -->
+      <section id="teaching" class="clearfix">
+
+            <h1>Teaching.</h1>
+<!--	<p> Sujets exam Séries Chrono:	<a target="_blank" href="documents/teaching/exam.zip"> <img class="download" src="images/actions/download-archive.svg" /></a>             -->
+<!--	</p>-->
+	
+	    <div class="row no-bottom-margin">
+
+		<section class="col">
+                    <h2><a target="_blank" href="http://programsandcourses.anu.edu.au/course/comp3420">Advanced Databases<br/>and Data Mining</a></h2> <!--WARNING: Ugly hack to get it on two lines-->
+		    <h3><a target="_blank" href="https://cecs.anu.edu.au/study/undergraduate-programs">ANU Undergraduate</a></h3>
+                    <p>
+			<img class="align-left" alt="" src="images/teaching/m1-info-object-oriented-programming.png" />
+			This course is for the third year of undergraduates in the <a target="_blank" href="http://cs.anu.edu.au/">Research School of Computer Science</a>. 
+			It presents relational theory and conceptual modelling; privacy and security; statistical databases; distributed databases; data warehousing; data cleaning and integration; 
+			and data mining concepts and techniques.
+			I give lectures concerning databases and data warehousing and data cleaning and integration.
+
+<!--		        <dt>Support de cours et TD : &nbsp;&nbsp;<a target="_blank" href="documents/teaching/m1_idsm_Genie_logiciel.zip"> <img class="download" src="images/actions/download-archive.svg" /></a><dt/>-->
+		    </p>
+                </section>			
+
+		<section class="col mid">
+		    <h2><a target="_blank" href="http://programsandcourses.anu.edu.au/course/comp4650">Document Analysis<br/>&nbsp;</a></h2> <!--WARNING: Ugly hack to get it on two lines-->
+		    <h3><a target="_blank" href="https://cecs.anu.edu.au/study/postgraduate-programs">ANU Postgraduate</a></h3>
+                    <p>
+			<img class="align-left" alt="" src="images/teaching/m1-dmkm-software-methodologies.png" />
+			This course is for the third year of undergraduates in the <a target="_blank" href="http://cs.anu.edu.au/">Research School of Computer Science</a>, 
+			as well as Honnors students. It presents techniques related to processing online document, such as (A) information retrieval, 
+			(B) natural language processing, (C) machine learning for documents, and (D) relevant tools for the Web. I give lectures concerning
+			the machine learning part and the social media and sentiment analysis part.
+		    </p>
+                </section>
+
+                <section class="col">
+		    <h2>Numerical Machine Learning</h2>
+		    <h3><a target="_blank" href="http://www.em-dmkm.eu/">European M2 DMKM</a></h3>
+                    <p>
+			<img class="align-left" alt="" src="images/teaching/m2-dmkm-numerical-machine-learning.png" />
+			This course is for the second year in the Excellence European Master DMKM. It presents advanced machine 
+			learning techniques. Together with <a target="_blank" href="http://eric.univ-lyon2.fr/~lallich/">S. Lallich </a>, we present 
+			association rules mining and class rules mining, ensemble methods (bagging, boosting) and statistical testing 
+			procedures (cross-validation, student t-test, etc.).
+		    </p>
+		    <p> I give practical lectures for this course. </p>
+                </section>
+
+            </div>
+
+<!--            <div class="row">-->
+<!--                <section class="col">-->
+<!--                    <h2>Symbolic Machine Learning</h2>-->
+<!--		    <h3>M1 DMKM &mdash; go to <a target="_blank" href="http://www.em-dmkm.eu/">site</a></h2>-->
+<!--                    <p>-->
+<!--			<img class="align-left" alt="" src="images/teaching/m1-dmkm-symbolic-learning.png" />-->
+<!--			The course provides basis for symbolic machine learning techniques.-->
+<!--			It will also be a first introduction to machine learning in general.-->
+<!--			Among studied notions: Top Down Induction of Decision Trees, Formal Concept Analysis, Non supervised Learning, 				Instance-Based Learning, Conceptual Clustering, Neural Networks, Genetic Algorithms, Ensemble methods.-->
+<!--		    </p>-->
+<!--		    <p> I am tutoring the students in Lyon. </p>-->
+<!--                </section>-->
+
+<!--                <section class="col mid">-->
+<!--                    <h2>Operating Systems and <br/>C programming</h2>-->
+<!--		    <h3>L3 IDS &mdash; go to <a target="_blank" href="http://dis.univ-lyon2.fr/?page_id=188">site</a></h2>-->
+<!--                    <p>-->
+<!--			<img class="align-left" alt="" src="images/teaching/l3-ids-operating-systems.png" />-->
+<!--			<img src="images/french.gif">-->
+<!--			Ce cours donne les notions de base sur les systèmes d'exploitation et la programmation en C. Les étudiants -->
+<!--			apprennent : la structure d'un système d'exploitation, les utilitaires de base d'un shell, systèmes de -->
+<!--			fichiers. Pour le C: les bases, les strings, entrées/sorties, gestion mémoire.-->
+<!--		    </p>-->
+
+<!--		    <dt>CM, TD et resources : &nbsp;&nbsp;-->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_cm.pdf"> <img class="download" src="images/actions/download-pdf.svg" /></a> -->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_td.zip"> <img class="download" src="images/actions/download-archive.svg" /></a>-->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_resources.zip"> <img class="download" src="images/actions/download-archive.svg" /></a>-->
+<!--		    <dt/>-->
+
+<!--		    <dt>Machine virtuelle Linux et instructions : &nbsp;&nbsp;-->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_virt_machine.zip"> <img class="download" src="images/actions/download-archive.svg" /></a>-->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_guide.pdf"> <img class="download" src="images/actions/download-pdf.svg" /></a>-->
+<!--		    <dt/>-->
+
+<!--		    <dt>Ennoncé du projet : &nbsp;&nbsp;-->
+<!--			<a target="_blank" href="documents/teaching/l3_ids_unix-c_projet.pdf"> <img class="download" src="images/actions/download-pdf.svg" /></a>-->
+
+<!--		    <dt/>-->
+<!--                </section>-->
+
+<!--                <section class="col">-->
+<!--                    <h2>Numerical Calculation<br/>&nbsp;</h2> <!--WARNING: Ugly hack to get it on two lines-->
+<!--		    <h3>L2 IDEA &mdash; go to <a target="_blank" href="http://dis.univ-lyon2.fr/?page_id=186">site</a></h2>-->
+<!--                    <p>-->
+<!--			<img class="align-left" alt="" src="images/teaching/l2-idea-numerical-calculation.png" />-->
+<!--			<img src="images/french.gif">-->
+<!--			Ce cours a pour but la maîtrise d'Octave, un logiciel de calcul numérique. Compétences acquises: mettre en -->
+<!--			œuvre sur des cas pratiques les méthodes et modèles quantitatifs théoriques, visualiser les données par -->
+<!--			l’intermédiaire de graphes, être opérationnel et capable d'implémenter des algorithmes et des prototypes.-->
+<!--		    </p>-->
+
+<!--		    <dt>Support de cours et TD : &nbsp;&nbsp;<a target="_blank" href="documents/teaching/l2_idea_octave_cm.pdf"> <img class="download" src="images/actions/download-pdf.svg" /></a> <a target="_blank" href="documents/teaching/l2_idea_octave_td.pdf"> <img class="download" src="images/actions/download-pdf.svg" /></a><dt/>-->
+
+<!--		    <dt>Octave sous Windows : &nbsp;&nbsp;-->
+<!--			<a target="_blank" href="documents/teaching/l2_idea_1_Octave_prerequisites.exe"> -->
+<!--				<img class="download" src="images/actions/download-exe.png" />-->
+<!--			</a> -->
+<!--			<a target="_blank" href="documents/teaching/l2_idea_2_Octave_install.exe"> <img class="download" src="images/actions/download-exe.png" /></a>-->
+<!--			<a target="_blank" href="documents/teaching/l2_idea_3_Octave_Gui.exe"> <img class="download" src="images/actions/download-exe.png" /></a>-->
+<!--		    <dt/>-->
+<!--                </section>-->
+<!--            </div>-->
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+      <!-- Biography -->
+      <section id="biography" class="clearfix">
+
+            <h1>Biography.</h1>
+
+            <div class="primary">
+
+
+        <p class="intro"> I am a Lecturer in Computer Science with the <a target="_blank" href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a> in the <a target="_blank" href="https://www.uts.edu.au/">University of Technology Sydney<a/>. 
+        <p/>
+
+		<h2>Previously</h2>
+
+		<p> Between March 2016 and January 2019, I was a Research Fellow, then Lecturer with the <a target="_blank" href="http://cecs.anu.edu.au/"> College of Engineering and Computer Science</a> at the 
+		<a target="_blank" href="http://www.anu.edu.au/">Australian National University</a> in Canberra.
+		I was equally affiliated with the <a target="_blank" href="http://www.csiro.au/en/Research/D61">Data61</a> unit of <a target="_blank" href="http://www.csiro.au">CSIRO</a>, in the Decision Sciences team. 
+		<p/>
+
+		<p>Between May 2014 and February 2016,I was a researcher within the <a target="_blank" href="http://nicta.com.au/">National ICT Australia<a/> 
+		in Canberra Australia, working in the Optimization Research Group. 
+		I was equally an adjunct lecturer with the <a target="_blank" href="http://cecs.anu.edu.au/"> College of Engineering and Computer Science</a> at the 
+		<a target="_blank" href="http://www.anu.edu.au/">Australian National University</a> in Canberra. 
+		</p>		
+
+		<p>Between September 2013 and May 2014, I was a PostDoctoral researcher with the <a target="_blank" href="http://eric.univ-lyon2.fr/">ERIC Laboratory</a>,
+                financed by the <a target="_blank" href="http://mediamining.univ-lyon2.fr/people/velcin/imagiweb/" title="ImagiWeb Research Project">ImagiWeb Research 
+		Project</a>.
+		I was equally an assistant professor with the <a target="_blank" href="http://dis.univ-lyon2.fr/">DIS Department</a>, at the 
+		<a target="_blank" href="http://www.univ-lyon2.fr">University Lumière<a/> in Lyon. 
+		</p>
+		
+		<p> Between 2009 and 2013, I was a PhD student at the <a target="_blank" href="http://eric.univ-lyon2.fr/">ERIC Laboratory</a> with the
+		<a target="_blank" href="http://www.univ-lyon2.fr">University Lumière Lyon2</a>, under the supervision of 
+		<a target="_blank" href="http://eric.univ-lyon2.fr/~lallich">Stéphane Lallich</a> and 
+		<a target="_blank" href="http://mediamining.univ-lyon2.fr/people/velcin">Julien Velcin</a>. 
+		I defended my PhD thesis on June 24th 2013, with honors "Très Honorable".
+                </p>
+
+		<p> In July 2009, I obtained my MSc (graduating first of promotion, with honors.) in Data Mining and Knowledge Management from the 
+		<a target="_blank" href="http://www.polytech.univ-nantes.fr/">Polytechnic School of the University of Nantes</a>, France
+		and wrote my Master’s Thesis on "Textual Data Clustering and Cluster Naming" after an internship at the ERIC Laboratory.
+		</p>
+
+		<p> Between 2004 and 2009, I did my undergrad and obtained in September 2009 my Engineer Diploma (double diploma, in parallel with the 
+		French Master's) in System and Computer Engineering from the 
+		<a target="_blank" href="http://www.acs.pub.ro/">Faculty of Automatic Control and Computers</a> of the 
+		<a target="_blank" href="http://www.upb.ro/">Polytechnic University Bucharest</a>, Romania.
+		</p>
+
+<!--            OLD NEWS section-->
+        <h2>Old News</h2>
+        
+        <p>
+		    2019-10: Together with Amelia Johns and Fracesco Bailo, I was awarded a prestigious Facebook grant on Using computational modelling of user behaviour and machine learning to counter the diffusion of hate speech across social media.
+		</p>
+
+        <p>
+		    2019-10: I wrote a piece for the influential media outlet The Conversation entitled <a href="https://theconversation.com/can-hiding-likes-make-facebook-fairer-and-rein-in-fake-news-the-science-says-maybe-124671">Can hiding likes make Facebook fairer and rein in fake news? The science says maybe</a>, which received significant attention on social media (Twitter & LinkedIn), from the FEIT and UTS media departments. Subsequently, I was interviewed <a href="http://radioadelaide.org.au/2019/10/10/hiding-the-number-of-likes-on-social-media/">on the radio</a> about the work and the phenomenon.  
+		</p>
+        
+        <p>
+		    2019-04: <a target="_blank" href="https://methods.sagepub.com/video/srmpromo/ltprsh/studying-online-video-popularity-with-stochastic-computational-models">My interview with Sage Research Methods</a> just got published, in which I discuss using stochastic computational models to study the popularity of online videos. 
+		</p>
+
+        <p>
+		    2019-03: I am doing a one month research visit at the French CNRS <a target="_blank" href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/index.html">laboratory Hubert Curien<a/>, where I will be working with <a target="_blank" href="https://perso.univ-st-etienne.fr/largeron/">Christine Largeron<a/> on linking the dynamics online communities and information diffusion processes.
+		</p>
+
+        <p>
+		    2019-01: I just joined the <a target="_blank" href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a> in the <a target="_blank" href="https://www.uts.edu.au/">University of Technology Sydney<a/> as a Lecturer in Computer Science.
+		</p>
+
+        <p>
+		    2018-09: We've got the attention of the media! Both the <a target="_blank" href="https://www.businessinsider.com.au/twitter-bots-first-us-presidential-debate-anu-scientists-2018-9"><strong>Business Insider</strong></a> and the <a target="_blank" href="http://www.anu.edu.au/news/all-news/anu-algorithms-define-bot-influence-in-2016-us-election"><strong>ANU Reporter</strong></a> wrote about our findings concerning the bot influence in the 2016 US Elections.
+		</p> 
+
+	    <p>
+		    2018-06: Just returned from <a target="_blank" href="http://www.icwsm.org/2018/index.php"><strong>ICWSM 2018</strong></a> in Palo Alto, California, where our team presented three papers. I also visited and gave invited talks at <a target="_blank" href="https://research.netflix.com/">Netflix Research</a> and <a target="_blank" href="https://research.fb.com/">Facebook Core Research</a>. See more details <a target="_blank" href="#grants">here</a>.
+		</p> 
+
+	    <p>
+		    2018-05: After the <a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France, I have visited for a week the <a target="_blank" href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems</a> in Kaiserslautern, Germany, hosted by the team of <a target="_blank" href="https://people.mpi-sws.org/~manuelgr/">Manuel Gomez Rodriguez</a>, one of the top groups world-wide in stochastic modeling.
+		</p> 
+
+	    <p>
+		    2018-03: Three of our papers just got accepted at <a target="_blank" href="http://www.icwsm.org/2018/index.php"><strong>ICWSM 2018</strong></a>, the top computational social science conference.
+            Rendez-vous in Stanford, California, US.
+		</p>
+
+	    <p>
+		    2018-01: Our slick-looking HIPie popularity explorer tool will be showcased at the <a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France.
+		    Check out it's <a target="_blank" href="https://www.youtube.com/watch?v=Kc7awEMdNtA">video tutorial</a>, <a target="_blank" href="https://github.com/computationalmedia/hipdemo">Github repository</a> and <a target="_blank" href="http://hipdemo.ml/">live installation</a>.
+		</p>
+
+        <p>
+		    2017-12: Our paper "SIR-Hawkes: on the Relationship Between Epidemic Models and Hawkes Point Processes" has just been accepted at the 
+		<a target="_blank" href="https://www2018.thewebconf.org/"><strong>WWW 2018</strong></a> conference in Lyon, France!
+		</p>
+
+	    <p>
+		2016-05-03: Check out our brand new <a target="_blank" href="http://cm.cecs.anu.edu.au"><strong>Computational Media lab</strong> page</a>.
+		</p>
+
+	    <p>
+		2016-03-16: Our work got the attention of Wikimedia Research! I presented "Evolution of Privacy Loss on Wikipedia" in the March session of the <a target="_blank" href="https://www.mediawiki.org/wiki/Wikimedia_Research/Showcase#March_2016"><strong>Monthly Wikimedia Research Showcase</strong></a>. See recording <a target="_blank" href="https://youtu.be/Xle0oOFCNnk">here</a>.
+		</p>
+
+        <p>
+		2015-10: Our paper "Evolution of Privacy Loss on Wikipedia" has just been accepted at the 
+		<a target="_blank" href="http://www.wsdm-conference.org/2016/"><strong>WSDM 2016</strong></a> conference in San Francisco!
+		</p>
+               
+        <p>
+		2015-09: Our paper "ClusPath: A Temporal-driven Clustering to Infer Typical Evolution Paths" has been accepted for publication with the journal of 
+		<a target="_blank" href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10618"><strong>Data Mining and Knowledge Discovery</strong></a>
+		</p>
+                
+        <p>
+		This year 2015, I give lectures about Machine Learning and Social Media and Sentiment Analysis in the context of the 
+		<a target="_blank" href="http://programsandcourses.anu.edu.au/course/comp4650">Document Analysis course</a>,
+		with the <a target="_blank" href="http://cs.anu.edu.au/">Research School of Computer Science</a> at the ANU.
+		</p>
+
+                <p>
+		Since May 2014, I am at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Canberra, Australia, as a researcher, 
+		working with <a target="_blank" href="http://web.media.mit.edu/~cebrian/">Manuel Cebrian</a>, <a target="_blank" href="http://users.cecs.anu.edu.au/~xlx/">Lexing Xie</a> 
+		and <a target="_blank" href="https://www.nicta.com.au/people/pvanhentenryck">Pascal Van Hentenryck</a>.
+		</p>
+		                
+                <p>
+		Starting from May 2014, I will be at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Canberra, Australia, in a research visit and I will 
+		be working with <a target="_blank" href="http://web.media.mit.edu/~cebrian/">Manuel Cebrian</a> and <a target="_blank" href="https://www.nicta.com.au/people/pvanhentenryck">
+		Pascal Van Hentenryck</a>.
+		</p>
+
+                <p>
+		On the 24th of June, I defended my PhD thesis, entitled "Semi-Supervised Structuring of Complex Data", and I obtained 
+		the title of PhD from the University Lumière Lyon 2. The thesis manuscript is available <a target="_blank" href="documents/research/papers/RIZOIU_PHD_Thesis-2013.pdf">here</a>.
+		</p>
+
+                <p>
+		In July, I will be at the <a target="_blank" href="http://www.nicta.com.au/">NICTA lab</a>, Australia, in a research visit and I will 
+		be working with <a target="_blank" href="http://tiberiocaetano.com/">Tiberio Caetano</a>.
+		</p>
+
+                <p>
+		In August, I will participate at the Doctoral Consortium of the <a target="_blank" href="http://ijcai13.org/">International Joint 
+		Conference on Artificial Intelligence</a>. My submission entitled 
+		<a target="_blank" href="documents/research/papers/RIZOIU_IJCAI-DC-2013.pdf">"Semi-Supervised Structuring of Complex Data"</a>, has 
+		been accepted for publication in the Proceedings of IJCAI'13.
+		</p>
+
+                <p>
+		The paper <a target="_blank" href="documents/research/papers/RIZOIU_JIIS-2013-preprint.pdf">"Unsupervised Feature Construction for 			Improving Data Representation and Semantics"</a>, written with <a target="_blank" href="http://mediamining.univ-lyon2.fr/people/velcin">J. 		Velcin </a> and <a target="_blank" href="http://eric.univ-lyon2.fr/~lallich/">S. Lallich </a>, has been accepted for publication in 			<a target="_blank" href="http://link.springer.com/journal/10844">JIIS</a>.
+		</p>
+
+		<p>
+		I was part of the organizational committee and head of the volunteers team for the joint organization of the conferences 		<a target="_blank" href="http://eric.univ-lyon2.fr/alt-ds-2012/">ALT'12 and DS'12</a>.
+		</p>
+
+		<p>
+		I gave a lecture on <a target="_blank" href="documents/research/presentations/RIZOIU_JIIS-2013_presentation.pdf">Using a Pareto Front 			for a Non-Supervised Feature Construction Algorithm</a> <img src="images/french.gif">.
+		</p>
+
+            </div>
+
+            <aside>
+
+                    <h2>More about me</h2>
+
+                    <p>
+			You can find more details about my experience, research and education by downloading my (short) CV.
+		    </p>
+
+                    <a target="_blank" href="documents/RIZOIU_CV.pdf" class="download-btn">Resume</a>
+<!--                    <a target="_blank" href="documents/RIZOIU_CV_french.pdf" class="download-btn">Résumé (Fr)</a>-->
+
+                    <p>
+			Here is my Research statement -- detailing my research vision -- and my Teaching statement -- detailing my current and past teaching and supervision experience.
+		            </p>
+
+                    <a target="_blank" href="documents/RIZOIU_research-vision-statement.pdf" class="download-btn">Research statement</a>
+                    <a target="_blank" href="documents/RIZOIU_teaching-statement.pdf" class="download-btn">Teaching statement</a>
+
+
+		    <h2 class="spaced">Online Visibility</h2>
+
+                    <ul class="link-list social">
+
+                        <li class="googleacademic"><a target="_blank" href="http://scholar.google.com/citations?user=J9sjxXYAAAAJ">Google Scholar</a></li>
+                    	<li class="orcid"><a target="_blank" href="https://orcid.org/0000-0003-0381-669X">ORCID iD</a></li>
+                        <li class="dblp"><a target="_blank" href="https://informatik.uni-trier.de/~ley/pers/hd/r/Rizoiu:Marian=Andrei">DBLP</a></li>
+			<li class="arnet-miner"><a target="_blank" href="http://arnetminer.org/person/marian-andrei-rizoiu-1529924.html">Arnet Miner</a></li>
+                    	<li class="research-gate"><a target="_blank" href="http://www.researchgate.net/profile/Marian-Andrei_Rizoiu/">Research Gate</a></li>
+<!--                    <li class="twitter"><a target="_blank" href="#">Twitter</a></li>-->
+<!--                    <li class="dribble"><a target="_blank" href="#">Dribble</a></li>-->
+<!--                    <li class="linkedin"><a target="_blank" href="#">Linkedin</a></li>-->
+<!--                    <li class="delicious"><a target="_blank" href="#">Delicious</a></li>-->
+<!--                    <li class="flickr"><a target="_blank" href="#">Flickr</a></li>-->
+                    </ul>
+
+            </aside>
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+     <!-- photos examples - NOT USED FOR THE MOMENT -->
+     <!--  <section id="photos">
+
+            <h1>Some photos and movies.</h1>
+            <ul class="folio-list clearfix">
+
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/milk.jpg" title="Milk Splashes" ><img src="images/thumbs/milk.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Milk Splashes</h3>
+
+                </li>
+
+                <li class="folio-thumb last">
+                    <div class="thumb">
+
+                        <a class="lightbox" href="images/thumbs/big/hexagon.jpg" title="Hexagon Bokeh"><img src="images/thumbs/hexagon.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Hexagon Bokeh</h3>
+                </li>
+
+
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox-video" href="http://www.youtube.com/watch?v=EPXwP8D5C5c&feature=player_embedded"><img src="images/thumbs/hillsong-united-aftermath.jpg" alt="" /></a>
+
+                    </div>
+                    <h3 class="entry-title">Aftermath (Sample Video)</h3>
+                </li>
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/dandelion.jpg" title="Dandelion" ><img src="images/thumbs/dandelion.jpg" alt="" /> </a>
+                    </div>
+
+                    <h3 class="entry-title">Dandelion</h3>
+                </li>
+
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/eiffel.jpg" title="Eiffel Tower"><img src="images/thumbs/eiffel.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Eiffel Tower</h3>
+                </li>
+
+                 <li class="folio-thumb last">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/clouds-and-rainbow.jpg" title="Clouds &amp; Rainbow"><img src="images/thumbs/clouds-and-rainbow.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Clouds &amp; Rainbow</h3>
+                </li>
+
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/landscape.jpg" title="Rural Landscape"><img src="images/thumbs/landscape.jpg" alt=""  /> </a>
+                    </div>
+                    <h3 class="entry-title">Rural Landscape</h3>
+                </li>
+
+                <li class="folio-thumb">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/sneakers.jpg" title="Cosmic Sneakers"><img src="images/thumbs/sneakers.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Cosmic Sneakers</h3>
+                </li>
+
+                 <li class="folio-thumb last">
+                    <div class="thumb">
+                        <a class="lightbox" href="images/thumbs/big/vector-flower-fullscreen.jpg" title="Abstract Vectors"><img src="images/thumbs/vector-flower-fullscreen.jpg" alt="" /> </a>
+                    </div>
+                    <h3 class="entry-title">Abstract Vector</h3>
+                </li>
+
+            </ul>
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section> -->
+
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-content">
+        <ul class="footer-menu">
+		<li><a target="_blank" href="#main">Home</a></li>
+                <li><a target="_blank" href="#publications">Publications</a></li>
+                <li><a target="_blank" href="#research">Research</a></li>
+                <li><a target="_blank" href="#teaching">Teaching</a></li>
+                <li><a target="_blank" href="#biography">Biography</a></li>
+                <li><a target="_blank" href="#contact">Contact</a></li>
+        </ul>
+
+        <p class="footer-text">Copyright 2018 Marian-Andrei Rizoiu. &nbsp;&nbsp;&nbsp; Get this theme at <a target="_blank" href="http://www.styleshout.com/">Styleshout</a>.</p>
+
+    </div>
+
+</footer>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//rizoiu.eu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//rizoiu.eu/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

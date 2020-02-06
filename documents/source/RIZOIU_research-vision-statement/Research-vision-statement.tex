@@ -1,0 +1,194 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxmath,newtxtext} %% use Times New Roman (closest) everywhere
+\pagenumbering{gobble} %% no page numbering
+\usepackage{url}
+
+% math related packages
+\usepackage{amsmath,dsfont}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%% ANDREI: workaround for the \proof error
+\let\proof\relax
+\let\endproof\relax
+%\usepackage{amsthm}
+\usepackage{bbm}
+%for striking text. Then use command \st{}
+\usepackage{soul}
+
+% url package
+\usepackage{url}
+\usepackage{nameref}
+\usepackage{hyperref}
+
+% Table related packages
+\usepackage{booktabs,tabularx}
+\renewcommand\tabularxcolumn[1]{m{#1}} 
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{verbatim}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% Theorems and corrolaries
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section] %% initially: theorem instead of section
+\newtheorem{lemma}[theorem]{Lemma}
+
+% fig and table one next to each other
+\usepackage{floatrow}
+% Table float box with bottom caption, box width adjusted to content
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+% Construct a checkmark
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+% Image related graphics
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.tif,.tiff,.ps}
+\graphicspath{{./img/}{./}}
+\usepackage{wrapfig}
+
+%% annotations and revision code
+%%%package that allows me more colors
+\usepackage{xcolor,soul}
+\usepackage[colorinlistoftodos]{todonotes}
+%\todo{Here's a comment in the margin!}
+%\todo[inline, color=green!40]{This is an inline comment.}
+
+\definecolor{navy}{rgb}{0.1, 0.1, 0.8}
+\definecolor{gray}{rgb}{0.4, 0.4, 0.4}
+\definecolor{ruby}{rgb}{0.8, 0.1, 0.1}
+\definecolor{olive}{rgb}{0.1, 0.5, 0.1}
+
+\newcommand{\eat}[1]{}
+\newcommand{\rev}[1]{{\color{navy}{#1}}}
+\newcommand{\rva}[1]{{\color{olive}{#1}}}
+\newcommand{\verify}[1]{{\color{red}{#1}}}
+%\newcommand{\rev}[1]{#1}
+%\newcommand{\rva}[1]{#1}
+%\newcommand{\verify}[1]{#1}
+\newcommand{\fade}[1]{{\color{gray}{#1}}}
+\newcommand{\NOTE}[2]{
+ \todo{ {\bf #1}:~{#2}}
+ }
+\newcommand{\TODO}[2]{
+ \todo[inline, color=green!40]{ {\bf #1}:~{#2}}
+ }
+% END annotations
+
+% spacing tricks
+\newcommand{\titlemoveup}{\vspace{-0.mm}}
+\newcommand{\secmoveup}{\vspace{-2.5mm}} % ** \vspace{-5mm}}
+\newcommand{\bigsecmoveup}{\secmoveup\vspace{-.0mm}}
+\newcommand{\parmoveup}{\vspace{-0.mm}}
+\newcommand{\textmoveup}{\vspace{-0.mm}}       	%{\vspace{-0.08in}}
+\newcommand{\bigtextmoveup}{\textmoveup\vspace{-.0mm}}	%{\vspace{-0.06in}}
+\newcommand{\itemmoveup}{\vspace{-0.mm}}              %{\vspace{-0.04in}}
+\newcommand{\eqmoveup}{\vspace{0.mm}}                %{\vspace{-0.16in}}
+\newcommand{\captionmoveup}{\eqmoveup\vspace{0mm}}   % ** {\vspace{-2.4mm}}
+\newcommand{\tablemoveup}{\eqmoveup\vspace{-.0mm}}   %{\vspace{-0.16in}}
+\newcommand{\bibitemmoveup}{\vspace{-.0mm}}           %{\vspace{-0.16in}}
+\newcommand{\squishlist}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+     \setlength{\parsep}{3pt}
+     \setlength{\topsep}{3pt}
+     \setlength{\partopsep}{0pt}
+     \setlength{\leftmargin}{1.5em}
+     \setlength{\labelwidth}{1em}
+     \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishlisttwo}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\labelwidth}{1.5em}
+    \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+  \end{list}  }
+  
+% ADD THE FOLLOWING COUPLE LINES INTO YOUR PREAMBLE
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
+
+\renewcommand\refname{REFERENCES}
+\usepackage{parskip}
+\begin{document}
+
+\section*{Research vision statement -- Marian-Andrei Rizoiu} 
+%What Drives Collective Human Attention and Behaviour in the Online?
+%Profiling Information Diffusion in the Online Environment
+%What Drives Collective Human Attention and Behaviour in the Online Environment?
+%Understanding Collective Human Attention and Behaviour in the Online Environment
+%Modelling the diffusion of online (mis)information across platform boundaries
+%
+%\secmoveup
+%\section{AIMS AND BACKGROUND}
+%\label{sec:aims-background}
+%\secmoveup
+
+Online social media is increasingly prevalent in shaping ``offline'' events, ranging from Twitter's role in the 2016 US presidential campaign to the recent allegations that Facebook was used to convey hateful and racist messages towards the Rohingya minority in Myanmar.
+%The lack of online censure and the fading of geographical boundaries has proven a fertile ground to the spread of misinformation in the online environment, which can pose a real threat to our society in which many processes, such as deliberative democracy, are based on the actions of correctly informed individuals.
+My research aims to tackle the grand challenge of assessing and mitigating the impact of online social media on the fundamental processes of our society.
+By successfully modelling and predicting the dynamics of online human attention, the benefit of my research is to understand novel societal and economic ``offline'' phenomena, like the spread of misinformation and the role of social bots in recent political elections, the link between the spread of hateful messages and violences towards minorities, or the emergence of disruptive business models like Uber or Airbnb.
+
+\textbf{Aims.}
+My research project aims to link the dynamics of collective human attention to the individual actions of the users of online platforms.
+I intend to develop tools and methods to:
+\vspace{-.3cm}
+\squishlist
+	\item \textbf{model} the links between a) user-level behaviour and their interactions and b) collective-level attention, which is currently not adequately understood;
+	\item \textbf{explain} novel societal phenomena, such as the role and influence of socialbots in the democratic process, or the virality of malicious content;
+	\item \textbf{enable addressing} some of these societal challenges, for example by constructing early detection systems for "fake news", assessing information reliability, or detecting and tracking the flow of radical messages in the online.
+\squishend
+
+
+\textbf{Tools, novelty and challenges.}
+From a technical point of view, my main research interest lies in developing machine learning and large-scale data mining methods to model, understand and improve the functioning of large social and information systems.
+The above-stated objectives typically require conceptual innovations and technical breakthroughs along three different dimensions:
+%\begin{enumerate}
+\vspace{-.3cm}
+\squishlist
+	\item \textbf{data acquisition:} 
+	Online social data is abundant, however, it is also noisy, and it comes in incompatible formats across different platforms or aggregated for privacy reasons.
+	This introduces difficulties in scalability, modelling with missing or false data, as well as ethical concerns.
+	My experience of more than 5 years of working with real data at the intersection of multiple social and information platforms~\cite{Mishra2016,Rizoiu2018a,Rizoiu2018,Rizoiu2017b,Rizoiu2016,Rizoiu2017}, places me in a privileged position to address this challenge;
+	
+	\item \textbf{interpretable modelling:}
+	Accounting for individual-level actions and predicting collective-level measures can be seen as different problems, which pose difficulties for traditional machine learning tools.
+	Stochastic point processes are the current state-of-the-art interpretable data-driven models which can account for large social and information systems, and for the dynamic processes that take place over them.
+	In my previous work, I have developed event-level~\cite{Mishra2016} and volumes formulations~\cite{Rizoiu2017} for stochastic processes, and I have linked two classes of stochastic processes previously considered independent  one from another~\cite{Rizoiu2018};
+	
+	\item \textbf{aggregate measures:} 
+	Linking online user actions to social phenomena	often entails uncovering previously unexplored connections between different scientific fields.
+	For example, linking Twitter diffusions to the influence of users in political discussions~\cite{Rizoiu2018a} resulted in a multi-disciplinary collaboration with social scientists.
+	Modelling dynamic social processes using stochastic processes allows tapping into the rich stochastic literature to build such aggregate measures.
+	I have previously used such techniques to link diffusions to content popularity~\cite{Rizoiu2017}, content promotability~\cite{Rizoiu2017b} and to explain popularity unpredictability~\cite{Rizoiu2018a}.
+%\end{enumerate}
+\squishend
+
+
+\secmoveup
+\secmoveup
+{ \small
+	%\bibliographystyle{apalike}
+	\bibliographystyle{plain}
+	\bibliography{biblio,mypubs}
+}
+
+\end{document}
