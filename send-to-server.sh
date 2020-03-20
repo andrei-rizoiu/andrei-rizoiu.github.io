@@ -6,7 +6,7 @@ clean-folder.sh > /dev/null ;
 echo -e " done!"
 
 ############### DigitalOcean VM target
-TARGETSERVER="andrei@tunnel"
+TARGETSERVER="andrei@rizoiu.eu"
 TARGETFOLDER="/home/andrei/public_html/personal-website/"		#the install version
 
 # Uploading to server

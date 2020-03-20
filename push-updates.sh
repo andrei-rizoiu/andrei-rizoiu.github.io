@@ -89,5 +89,7 @@ fi
 echo -e "--> Done\n\n\n"
 #read -n 1 -p "Press any key to continue..."
 
+bash ./send-to-server.sh
+
 #go back to the current dir
 cd "$CURR_DIR"
