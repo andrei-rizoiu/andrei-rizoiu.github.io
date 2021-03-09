@@ -5,7 +5,7 @@ echo -ne "--> Cleaning the local folders for temporary files ..."
 clean-folder.sh > /dev/null ;
 echo -e " done!"
 
-############### DigitalOcean VM target
+############### NeCTAR VM target
 TARGETSERVER="andrei@rizoiu.eu"
 TARGETFOLDER="/home/andrei/public_html/personal-website/"		#the install version
 
