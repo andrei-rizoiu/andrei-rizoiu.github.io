@@ -5,7 +5,7 @@ COMMITMSG="Site update"
 EXEC_DIR=$(readlink -f "$(dirname "$0" )" );
 CURR_DIR=$(readlink -f "$(pwd)" );
 #enter the exec dir (where the repo lies)
-cd "$EXEC_DIR"
+cd "$EXEC_DIR" 
 
 #detect DVCS
 #try git
