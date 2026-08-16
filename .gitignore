@@ -1,0 +1,8 @@
+# Local development scratch — never published to GitHub Pages
+dev/
+
+# Editor/office backups anywhere in the tree
+*.bak
+*.bak-*
+*.bak_*
+~$*
