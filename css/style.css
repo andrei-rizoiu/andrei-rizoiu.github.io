@@ -357,7 +357,7 @@ header hgroup {
     position: absolute;
     background: url(../images/logo.png) no-repeat;
     height: 31px;
-    width: 461px;
+    width: 270px; /* was 461px — clips the baked-in "| Professional Webpage" tagline off logo.png; the 8-item nav needs the width (2026-08-17) */
     display: block;
     top: 25px;
     left: 0;
@@ -831,3 +831,11 @@ footer  ul.footer-menu li:first-child a {
     border: none;
 }
 
+
+/* ===== Stat strip — live-CV headline metrics (added 2026-08-17) =====
+   Sits in the right column, under the slider (420px, matching .slider-wrapper). */
+section#main ul.stat-strip { float: right; clear: right; width: 420px; display: flex; flex-wrap: wrap; gap: 14px 20px; list-style: none !important; margin: 30px 0 0 0; padding: 0; }
+section#main ul.stat-strip li.stat { flex: 1 1 110px; border-top: 3px solid #285935; padding: 6px 4px 0 0; }
+section#main ul.stat-strip li.stat .num { display: block; font-size: 26px; font-weight: bold; color: #3B3B3B; }
+section#main ul.stat-strip li.stat .lbl { font-size: 12px; line-height: 16px; display: block; color: #6B6B6B; }
+section#main p.stat-note { float: right; clear: right; width: 420px; font-size: 11px; color: #999; margin: 8px 0 0 0; }
